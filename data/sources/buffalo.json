@@ -1,0 +1,781 @@
+{
+  "source": "buffalo",
+  "sourceName": "University at Buffalo School of Social Work – Evidence-Based Practices in Mental Health",
+  "baseUrl": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
+  "scrapedAt": "2026-07-05",
+  "notes": "Curated list of EBP interventions for children/adolescents and families, organized by modality and disorder. No formal rating scale; inclusion on the list indicates the intervention is considered evidence-based by the UB School of Social Work continuing-education program.",
+  "ratingScale": {},
+  "recordCount": 110,
+  "records": [
+    {
+      "name": "HeartMath: Coherence Training in Children with Attention Deficit Hyperactivity Disorder (ADHD)",
+      "url": "https://www.heartmath.org/training/child-mental-health/",
+      "modality": "Behavior Therapy",
+      "problem": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "note": ""
+    },
+    {
+      "name": "Functional Communication Training (FCT)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2846575/",
+      "modality": "Behavior Therapy",
+      "problem": "Autism Spectrum Disorders (ASD)",
+      "note": ""
+    },
+    {
+      "name": "Picture Exchange Communication System (PECS)",
+      "url": "https://pecsusa.com/pecs/",
+      "modality": "Behavior Therapy",
+      "problem": "Autism Spectrum Disorders (ASD)",
+      "note": ""
+    },
+    {
+      "name": "Building Confidence",
+      "url": "http://www.cebc4cw.org/program/building-confidence/detailed",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "C.A.T. Project",
+      "url": "http://www.cebc4cw.org/program/c-a-t-project/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Coping Cat",
+      "url": "http://www.cebc4cw.org/program/coping-cat/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "FRIENDS Program",
+      "url": "https://www.friendsresilience.org/about",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Dialectical Behavior Therapy",
+      "url": "https://behavioraltech.org/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Borderline Personality Disorder",
+      "note": ""
+    },
+    {
+      "name": "Rational Emotive Behavioral Therapy (REBT)",
+      "url": "http://albertellis.org/rebt-cbt-therapy/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Conduct Disorder and other Behavioral challenges",
+      "note": ""
+    },
+    {
+      "name": "Coping Power Program",
+      "url": "http://www.copingpower.com/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Conduct Disorder and other Behavioral challenges",
+      "note": ""
+    },
+    {
+      "name": "Moral Reconation Therapy (MRT)",
+      "url": "http://www.moral-reconation-therapy.com/index.html",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Co-Occurring Mental Health and Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Adolescent Coping with Depression (CWD-A)",
+      "url": "http://www.cebc4cw.org/program/adolescent-coping-with-depression-course-cwd-a/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Primary and Secondary Control Enhancement Training (PASCET)",
+      "url": "http://www.cebc4cw.org/program/primary-and-secondary-control-enhancement-training/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Teaching Kids to Cope (TKC)",
+      "url": "https://www.blueprintsprograms.org/factsheet/teaching-kids-to-cope",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Cognitive Behavioral Therapy (CBT)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928448/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Eating Disorders",
+      "note": ""
+    },
+    {
+      "name": "Real Life Heroes (RLH)",
+      "url": "https://reallifeheroestrainingprograms.godaddysites.com/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Grief and Loss",
+      "note": ""
+    },
+    {
+      "name": "Acceptance and Commitment Therapy (ACT)",
+      "url": "http://www.cebc4cw.org/program/acceptance-and-commitment-therapy/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Obsessive Compulsive Disorder (OCD)",
+      "note": ""
+    },
+    {
+      "name": "Building Confidence",
+      "url": "http://www.cebc4cw.org/program/building-confidence/detailed",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Obsessive Compulsive Disorder (OCD)",
+      "note": ""
+    },
+    {
+      "name": "Trauma-Focused CBT (TF-CBT)",
+      "url": "https://tfcbt2.musc.edu/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Post-Traumatic Stress Disorder (PTSD)",
+      "note": ""
+    },
+    {
+      "name": "Comprehensive Behavioral Intervention for Tics (CBIT)",
+      "url": "https://tourette.org/research-medical/cbit-overview/",
+      "modality": "Cognitive Behavioral Therapy",
+      "problem": "Tourette Syndrome",
+      "note": ""
+    },
+    {
+      "name": "EMDR",
+      "url": "https://www.emdria.org/",
+      "modality": "Eye Movement Desensitization and Reprocessing (EMDR)",
+      "problem": "Anxiety, Depression, and Trauma/PTSD",
+      "note": ""
+    },
+    {
+      "name": "Prolonged Exposure Therapy for Adolescents (PE-A)",
+      "url": "http://www.cebc4cw.org/program/prolonged-exposure-therapy-for-adolescents/",
+      "modality": "Exposure Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Parenting with Love and Limits (PLL)",
+      "url": "http://www.cebc4cw.org/program/parenting-with-love-and-limits/",
+      "modality": "Family Therapy",
+      "problem": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "note": ""
+    },
+    {
+      "name": "Attachment-Based Family Therapy (ABFT)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8489519/",
+      "modality": "Family Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Cool Kids Child and Adolescent Anxiety Management Program (Cool Kids)",
+      "url": "http://www.cebc4cw.org/program/cool-kids/",
+      "modality": "Family Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Family-Focused Treatment for Adolescents (FFT-A)",
+      "url": "http://www.cebc4cw.org/program/family-focused-treatment-for-adolescents/",
+      "modality": "Family Therapy",
+      "problem": "Bipolar – Many of these are also used to treat conduct disorder.",
+      "note": ""
+    },
+    {
+      "name": "Adolescents(TFCO-A)",
+      "url": "http://www.cebc4cw.org/program/treatment-foster-care-oregon-adolescents/",
+      "modality": "Family Therapy",
+      "problem": "Bipolar – Many of these are also used to treat conduct disorder.",
+      "note": ""
+    },
+    {
+      "name": "Preschoolers (TFCO-P)",
+      "url": "http://www.cebc4cw.org/program/treatment-foster-care-oregon-for-preschoolers/",
+      "modality": "Family Therapy",
+      "problem": "Bipolar – Many of these are also used to treat conduct disorder.",
+      "note": ""
+    },
+    {
+      "name": "Multidimensional Family Therapy (MDFT)",
+      "url": "https://www.mdft.org/",
+      "modality": "Family Therapy",
+      "problem": "Bipolar – Many of these are also used to treat conduct disorder.",
+      "note": ""
+    },
+    {
+      "name": "Multisystemic Therapy (MST)",
+      "url": "http://www.mstservices.com/",
+      "modality": "Family Therapy",
+      "problem": "Bipolar – Many of these are also used to treat conduct disorder.",
+      "note": ""
+    },
+    {
+      "name": "Multi-Family Psychoeducational Psychotherapy (MF-PEP)",
+      "url": "https://www.cebc4cw.org/program/multi-family-psychoeducational-psychotherapy/",
+      "modality": "Family Therapy",
+      "problem": "Bipolar – Many of these are also used to treat conduct disorder.",
+      "note": ""
+    },
+    {
+      "name": "Strengthening Families Program",
+      "url": "https://strengtheningfamiliesprogram.org/training.html",
+      "modality": "Family Therapy",
+      "problem": "Conduct Disorder",
+      "note": ""
+    },
+    {
+      "name": "Teaching-Family Model (TFM)",
+      "url": "http://www.cebc4cw.org/program/teaching-family-model/",
+      "modality": "Family Therapy",
+      "problem": "Conduct Disorder",
+      "note": ""
+    },
+    {
+      "name": "Parent-Child Interaction Therapy (PCIT)",
+      "url": "http://www.pcit.org/",
+      "modality": "Family Therapy",
+      "problem": "Conduct Disorder",
+      "note": ""
+    },
+    {
+      "name": "Functional Family Therapy (FFT)",
+      "url": "https://www.fftllc.com/",
+      "modality": "Family Therapy",
+      "problem": "Conduct Disorder",
+      "note": ""
+    },
+    {
+      "name": "Family Behavior Therapy (FBT)",
+      "url": "http://familybehaviorther.wixsite.com/familytherapy",
+      "modality": "Family Therapy",
+      "problem": "Conduct Disorder",
+      "note": ""
+    },
+    {
+      "name": "Familias Unidas Preventive Intervention",
+      "url": "https://www.cebc4cw.org/program/familias-unidas/",
+      "modality": "Family Therapy",
+      "problem": "Conduct Disorder",
+      "note": ""
+    },
+    {
+      "name": "Brief Strategic Family Therapy (BSFT)",
+      "url": "http://www.cebc4cw.org/program/brief-strategic-family-therapy/detailed",
+      "modality": "Family Therapy",
+      "problem": "Conduct Disorder",
+      "note": ""
+    },
+    {
+      "name": "The Maudsley Approach",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1414759/",
+      "modality": "Family Therapy",
+      "problem": "Eating Disorders",
+      "note": ""
+    },
+    {
+      "name": "HOMEBUILDERS",
+      "url": "http://www.institutefamily.org/",
+      "modality": "Family Therapy",
+      "problem": "Grief and Loss",
+      "note": ""
+    },
+    {
+      "name": "Family Spirit",
+      "url": "https://www.jhsph.edu/research/affiliated-programs/family-spirit/about/",
+      "modality": "Family Therapy",
+      "problem": "Native American Specific Family Therapy",
+      "note": ""
+    },
+    {
+      "name": "Child and Family Traumatic Stress Intervention (CFTSI)",
+      "url": "http://www.cebc4cw.org/program/child-and-family-traumatic-stress-intervention-cftsi/",
+      "modality": "Family Therapy",
+      "problem": "Post-Traumatic Stress Disorder (PTSD)",
+      "note": ""
+    },
+    {
+      "name": "SITCAP-ART (Structured Sensory Intervention for Traumatized Children, Adolescents and Parents)",
+      "url": "http://www.cebc4cw.org/program/sitcap-art/",
+      "modality": "Family Therapy",
+      "problem": "Post-Traumatic Stress Disorder (PTSD)",
+      "note": ""
+    },
+    {
+      "name": "Combined Parent-Child Cognitive-Behavioral Therapy (CPC-CBT)",
+      "url": "http://www.cebc4cw.org/program/combined-parent-child-cognitive-behavioral-therapy-cpc-cbt/",
+      "modality": "Family Therapy",
+      "problem": "Post-Traumatic Stress Disorder (PTSD)",
+      "note": ""
+    },
+    {
+      "name": "Surviving Cancer Competently Intervention Program (SCCIP)",
+      "url": "https://rtips.cancer.gov/rtips/programDetails.do?programId=102875",
+      "modality": "Family Therapy",
+      "problem": "Post-Traumatic Stress Disorder (PTSD)",
+      "note": ""
+    },
+    {
+      "name": "Active Parenting of Teens: Families in Action",
+      "url": "http://www.activeparenting.com/training",
+      "modality": "Family Therapy",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Early Risers &ldquo;Skills for Success&rdquo",
+      "url": "https://crimesolutions.ojp.gov/ratedprograms/140#:~:text=Program%20Goals,disruptive%2C%20or%20nonconformist%20behaviors).",
+      "modality": "Family Therapy",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Ecologically Based Family Therapy (EBFT)",
+      "url": "http://www.cebc4cw.org/program/ecologically-based-family-therapy/",
+      "modality": "Family Therapy",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "MBSR",
+      "url": "https://professional.brown.edu/academics/mindfulness-education/mindfulness-based-stress-reduction",
+      "modality": "Group Interventions",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Social Skills Group Interventions (S.S. GRIN) 3-5",
+      "url": "https://www.blueprintsprograms.org/conference/presentations/2016/T5-B_SSGRIN_3-5_Social_Skills_Group_Intervention_Program_Fact_Sheet.pdf",
+      "modality": "Group Interventions",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "ACTION",
+      "url": "http://www.cebc4cw.org/program/action/",
+      "modality": "Group Interventions",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Prevention Program for African American Women (HWFD)",
+      "url": "https://www.theathenaforum.org/healer_women_fighting_disease_integrated_substance_abuse_and_hiv_prevention_program_for_african_amer",
+      "modality": "Group Interventions",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Stressbusters",
+      "url": "http://www.cebc4cw.org/program/stressbusters/",
+      "modality": "Group Interventions",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Interpersonal Psychotherapy",
+      "url": "http://www.cebc4cw.org/program/interpersonal-psychotherapy-adolescent-skills-training/detailed",
+      "modality": "Group Interventions",
+      "problem": "Depression",
+      "note": "Adolescent Skills Training (IPT-AST"
+    },
+    {
+      "name": "Grief and Trauma Intervention (GTI) for Children",
+      "url": "http://www.cebc4cw.org/program/grief-and-trauma-intervention-gti-for-children/detailed",
+      "modality": "Group Interventions",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Healer Women Fighting Disease Integrated Substance Abuse and HIV",
+      "url": "https://www.theathenaforum.org/healer_women_fighting_disease_integrated_substance_abuse_and_hiv_prevention_program_for_african_amer",
+      "modality": "Group Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Moral Reconation Therapy (MRT)",
+      "url": "http://www.moral-reconation-therapy.com/",
+      "modality": "Group Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Seeking Safety",
+      "url": "https://www.treatment-innovations.org/seeking-safety.html",
+      "modality": "Group Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "MBSR",
+      "url": "https://www.ummhealth.org/center-mindfulness",
+      "modality": "Holistic Approaches",
+      "problem": "",
+      "note": ""
+    },
+    {
+      "name": "Positive Parenting Program (Triple P)",
+      "url": "http://www.triplep.net/glo-en/home/",
+      "modality": "Parent Training",
+      "problem": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "note": ""
+    },
+    {
+      "name": "The PLAY Project",
+      "url": "https://www.playproject.org/",
+      "modality": "Parent Training",
+      "problem": "Autism Spectrum Disorders (ASD)",
+      "note": ""
+    },
+    {
+      "name": "Pivotal Response Treatment (PRT)",
+      "url": "http://www.autismprthelp.com/",
+      "modality": "Parent Training",
+      "problem": "Autism Spectrum Disorders (ASD)",
+      "note": ""
+    },
+    {
+      "name": "Life Space Crisis Intervention (LSCI)",
+      "url": "https://www.lsci.org/",
+      "modality": "Parent Training",
+      "problem": "Conduct Disorder (CD)",
+      "note": ""
+    },
+    {
+      "name": "Parent Management Training, Oregon Model (PMTO)",
+      "url": "http://www.cebc4cw.org/program/the-oregon-model-parent-management-training-pmto/",
+      "modality": "Parent Training",
+      "problem": "Conduct Disorder (CD)",
+      "note": ""
+    },
+    {
+      "name": "Tuning in to Kids (TIK)",
+      "url": "http://www.tuningintokids.org.au/",
+      "modality": "Parent Training",
+      "problem": "Conduct Disorder (CD)",
+      "note": ""
+    },
+    {
+      "name": "Defiant Children: A Clinician's Manual for Assessment and Parent Training",
+      "url": "http://www.cebc4cw.org/program/defiant-children-a-clinician-s-manual-for-assessment-and-parent-training/",
+      "modality": "Parent Training",
+      "problem": "Oppositional Defiant Disorder (ODD)",
+      "note": ""
+    },
+    {
+      "name": "FosterParentCollege.com® (FPC)",
+      "url": "http://www.cebc4cw.org/program/foster-parent-college/",
+      "modality": "Parent Training",
+      "problem": "Oppositional Defiant Disorder (ODD)",
+      "note": ""
+    },
+    {
+      "name": "Guiding Good Choices ® (GGC)",
+      "url": "http://www.cebc4cw.org/program/guiding-good-choices-sup-sup/",
+      "modality": "Parent Training",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Child-Centered Play Therapy (CCPT)",
+      "url": "http://www.cebc4cw.org/program/child-centered-play-therapy-ccpt/",
+      "modality": "Play Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Theraplay",
+      "url": "http://www.cebc4cw.org/program/theraplay/",
+      "modality": "Play Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Trauma-Focused Integrated Play Therapy (TFIPT)",
+      "url": "http://www.cebc4cw.org/program/trauma-focused-integrated-play-therapy/",
+      "modality": "Play Therapy",
+      "problem": "Anxiety",
+      "note": ""
+    },
+    {
+      "name": "Trauma Affect Regulations: Guide for Education and Therapy (TARGET)",
+      "url": "https://www.cebc4cw.org/program/trauma-affect-regulation-guide-for-education-and-therapy-adults/detailed",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma",
+      "note": ""
+    },
+    {
+      "name": "Traumatic Incident Reduction (TIR)",
+      "url": "https://www.tira.org/",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma",
+      "note": ""
+    },
+    {
+      "name": "Fairy Tale Model",
+      "url": "http://www.cebc4cw.org/program/fairy-tale-model-treating-problem-behaviors-a-trauma-informed-approach/",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma",
+      "note": ""
+    },
+    {
+      "name": "Psychoeducational Multifamily Groups (PMFG)",
+      "url": "https://ps.psychiatryonline.org/doi/10.1176/appi.ps.201400403",
+      "modality": "Psychoeducation",
+      "problem": "Psychotic Disorders",
+      "note": ""
+    },
+    {
+      "name": "study on elimination disorders",
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/27911597",
+      "modality": "Psychosocial",
+      "problem": "Elimination Disorders A 2017",
+      "note": ""
+    },
+    {
+      "name": "Lindamood Phoneme Sequencing",
+      "url": "https://lindamoodbell.com/program/lindamood-phoneme-sequencing-program",
+      "modality": "Psychosocial",
+      "problem": "Learning Disabilities",
+      "note": ""
+    },
+    {
+      "name": "Recognition and Response",
+      "url": "https://randr.fpg.unc.edu/",
+      "modality": "Psychosocial",
+      "problem": "Learning Disabilities",
+      "note": ""
+    },
+    {
+      "name": "Trauma Affect Regulations: Guide for Education and Therapy (TARGET)",
+      "url": "https://www.cebc4cw.org/program/trauma-affect-regulation-guide-for-education-and-therapy-adults/detailed",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma/PTSD",
+      "note": ""
+    },
+    {
+      "name": "Traumatic Incident Reduction (TIR)",
+      "url": "https://www.tira.org/",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma/PTSD",
+      "note": ""
+    },
+    {
+      "name": "Fairy Tale Model",
+      "url": "http://www.cebc4cw.org/program/fairy-tale-model-treating-problem-behaviors-a-trauma-informed-approach/",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma/PTSD",
+      "note": ""
+    },
+    {
+      "name": "Child-Parent Psychotherapy",
+      "url": "http://www.cebc4cw.org/program/child-parent-psychotherapy/",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma/PTSD",
+      "note": ""
+    },
+    {
+      "name": "Preschool PTSD Treatment (PPT)",
+      "url": "http://www.cebc4cw.org/program/preschool-ptsd-treatment/",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma/PTSD",
+      "note": ""
+    },
+    {
+      "name": "SITCAP-ART (Structured Sensory Intervention for Traumatized Children, Adolescents and Parents)",
+      "url": "http://www.cebc4cw.org/program/sitcap-art/",
+      "modality": "Psychotherapy",
+      "problem": "Anxiety and Trauma/PTSD",
+      "note": ""
+    },
+    {
+      "name": "The Seven Challenges",
+      "url": "http://www.sevenchallenges.com/overview/",
+      "modality": "Psychotherapy",
+      "problem": "Co-occurring Mental Health and Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Interpersonal Psychotherapy for Depressed Adolescents (IPT-A)",
+      "url": "https://iptinstitute.com/",
+      "modality": "Psychotherapy",
+      "problem": "Depression",
+      "note": ""
+    },
+    {
+      "name": "Early Risers &ldquo;Skills for Success&rdquo",
+      "url": "https://crimesolutions.ojp.gov/ratedprograms/140#:~:text=Program%20Goals,disruptive%2C%20or%20nonconformist%20behaviors).",
+      "modality": "School-Based Interventions",
+      "problem": "Conduct and other behavioral disorders",
+      "note": ""
+    },
+    {
+      "name": "Promoting Alternative Thinking Strategies (PATHS)",
+      "url": "https://www.cebc4cw.org/program/the-paths-curriculum/",
+      "modality": "School-Based Interventions",
+      "problem": "Conduct and other behavioral disorders",
+      "note": ""
+    },
+    {
+      "name": "Reconnecting Youth: A Peer Group Approach to Building Life Skills (RY)",
+      "url": "https://youthfirstinc.org/portfolio-item/reconnectingyouth/",
+      "modality": "School-Based Interventions",
+      "problem": "Co-occurring Mental Health and Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Al's Pals: Kids Making Healthy Choices",
+      "url": "https://shop.teachingstrategies.com/products/als-pals-kids-making-healthy-choices",
+      "modality": "School-Based Interventions",
+      "problem": "Co-occurring Mental Health and Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "SOS Signs of Suicide",
+      "url": "https://www.mindwise.org/sos-signs-of-suicide/",
+      "modality": "School-Based Interventions",
+      "problem": "Depression and Suicidality",
+      "note": ""
+    },
+    {
+      "name": "American Indian Life Skills Development/Zuni Life Skills Development",
+      "url": "https://uwpress.wisc.edu/books/0129.htm",
+      "modality": "School-Based Interventions",
+      "problem": "Depression and Suicidality",
+      "note": ""
+    },
+    {
+      "name": "Coping and Support Training (CAST)",
+      "url": "https://reconnectingyouth.com/portfolio-items/cast/",
+      "modality": "School-Based Interventions",
+      "problem": "Depression and Suicidality",
+      "note": ""
+    },
+    {
+      "name": "Lifelines Curriculum",
+      "url": "https://www.hazelden.org/web/public/lifelines.page",
+      "modality": "School-Based Interventions",
+      "problem": "Depression and Suicidality",
+      "note": ""
+    },
+    {
+      "name": "Sources of Strength",
+      "url": "https://sourcesofstrength.org/",
+      "modality": "School-Based Interventions",
+      "problem": "Depression and Suicidality",
+      "note": ""
+    },
+    {
+      "name": "Athletes Targeting Healthy Exercise and Nutrition Alternatives (ATHENA)",
+      "url": "https://www.ohsu.edu/ortho/high-school-athlete-program",
+      "modality": "School-Based Interventions",
+      "problem": "Eating Disorders",
+      "note": ""
+    },
+    {
+      "name": "New Moves",
+      "url": "http://www.newmovesonline.com/",
+      "modality": "School-Based Interventions",
+      "problem": "Eating Disorders",
+      "note": ""
+    },
+    {
+      "name": "Trauma Focused Coping (TFC)",
+      "url": "http://www.cebc4cw.org/program/trauma-focused-coping/",
+      "modality": "School-Based Interventions",
+      "problem": "Post-Traumatic Stress Disorder (PTSD)",
+      "note": ""
+    },
+    {
+      "name": "Active Parenting of Teens: Families in Action",
+      "url": "http://www.activeparenting.com/training",
+      "modality": "School-Based Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Early Risers &ldquo;Skills for Success&rdquo",
+      "url": "https://crimesolutions.ojp.gov/ratedprograms/140#:~:text=Program%20Goals,disruptive%2C%20or%20nonconformist%20behaviors).",
+      "modality": "School-Based Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Keepin' it REAL",
+      "url": "https://www.cebc4cw.org/program/keepin-it-real-kir/",
+      "modality": "School-Based Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Peer Assistance and Leadership (PAL)",
+      "url": "http://palusa.org/",
+      "modality": "School-Based Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Project SUCCESS",
+      "url": "http://tnd.usc.edu/",
+      "modality": "School-Based Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Project Towards No Drug Abuse (TND)",
+      "url": "http://tnd.usc.edu/",
+      "modality": "School-Based Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "Project Towards No Tobacco Use (TNT)",
+      "url": "http://tnt.usc.edu/",
+      "modality": "School-Based Interventions",
+      "problem": "Substance Use Disorders",
+      "note": ""
+    },
+    {
+      "name": "The Incredible Years",
+      "url": "http://www.incredibleyears.com/",
+      "modality": "Social-Emotional Therapy",
+      "problem": "",
+      "note": ""
+    },
+    {
+      "name": "Problem Solving Skills Training (PSST)",
+      "url": "http://www.cebc4cw.org/program/problem-solving-skills-training/",
+      "modality": "Social-Emotional Therapy",
+      "problem": "",
+      "note": ""
+    },
+    {
+      "name": "PEERS ® (Program for the Education and Enrichment of Relational Skills)",
+      "url": "https://www.semel.ucla.edu/peers",
+      "modality": "Social-Emotional Therapy",
+      "problem": "Autism Spectrum Disorders (ASD)",
+      "note": ""
+    },
+    {
+      "name": "Stop-Gap",
+      "url": "http://www.cebc4cw.org/program/stop-gap/",
+      "modality": "Residential Specific Treatments",
+      "problem": "",
+      "note": ""
+    },
+    {
+      "name": "Behavior Management Through Adventure (BMtA)",
+      "url": "http://www.pa.org/?page_id=1866",
+      "modality": "Residential Specific Treatments",
+      "problem": "Depression",
+      "note": ""
+    }
+  ]
+}

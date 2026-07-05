@@ -1,0 +1,4 @@
+node_modules/
+scrapers/cache/
+__pycache__/
+*.pyc

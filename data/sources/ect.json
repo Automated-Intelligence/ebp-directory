@@ -1,0 +1,1833 @@
+{
+  "source": "ect",
+  "sourceName": "Effective Child Therapy (APA Division 53 / SCCAP)",
+  "baseUrl": "https://effectivechildtherapy.org/concerns-symptoms-disorders/",
+  "scrapedAt": "2026-07-05",
+  "notes": "Evidence-based treatments for children and adolescents, rated per disorder/concern using SCCAP's five-level system.",
+  "ratingScale": {
+    "1": "Works Well (well-established)",
+    "2": "Works (probably efficacious)",
+    "3": "Might Work (possibly efficacious)",
+    "4": "Experimental (untested or insufficient evidence)",
+    "5": "Tested and Does Not Work"
+  },
+  "recordCount": 227,
+  "records": [
+    {
+      "name": "Cognitive-Behavioral Therapy for Insomnia",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Brief Behavioral Therapy",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Behavioral interventions: – Parent education",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Behavioral interventions: – Extinction",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Behavioral interventions: – Scheduled awakenings",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Behavioral interventions: – Bedtime fading/positive routines",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Mindfulness and acceptance-based strategies",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Complementary and alternative medicine (e.g., acupuncture, tai chi)",
+      "problem": "Poor Sleep",
+      "ageGroup": "",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/concerns/poor-sleep/"
+    },
+    {
+      "name": "Individual, Comprehensive ABA Teacher-Implemented, Focused ABA + DSP",
+      "problem": "Autism Spectrum Disorder",
+      "ageGroup": "Effective Therapies for Autism Spectrum Disorder",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/autism/"
+    },
+    {
+      "name": "Individual, Focused ABA for augmentative & alternative communication Individual, Focused ABA + DSP",
+      "problem": "Autism Spectrum Disorder",
+      "ageGroup": "Effective Therapies for Autism Spectrum Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/autism/"
+    },
+    {
+      "name": "Individual, Comprehensive ABA + DSP Comprehensive ABA Classrooms",
+      "problem": "Autism Spectrum Disorder",
+      "ageGroup": "Effective Therapies for Autism Spectrum Disorder",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/autism/"
+    },
+    {
+      "name": "Comprehensive ABA + DSP Classrooms Focused ABA + DSP Parent Training",
+      "problem": "Autism Spectrum Disorder",
+      "ageGroup": "Effective Therapies for Autism Spectrum Disorder",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/autism/"
+    },
+    {
+      "name": "Behavior Therapy (HRT)",
+      "problem": "Body-Focused Repetitive Disorders",
+      "ageGroup": "Effective Therapies for Body-focused Repetitive Disorders",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/body-focused-repetitive-disorders/"
+    },
+    {
+      "name": "Individual CBT",
+      "problem": "Body-Focused Repetitive Disorders",
+      "ageGroup": "Effective Therapies for Body-focused Repetitive Disorders",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/body-focused-repetitive-disorders/"
+    },
+    {
+      "name": "Individual massed negative practice",
+      "problem": "Body-Focused Repetitive Disorders",
+      "ageGroup": "Effective Therapies for Body-focused Repetitive Disorders",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/body-focused-repetitive-disorders/"
+    },
+    {
+      "name": "CBT (individual, group, family)",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "MET with CBT",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "Family-based treatment – ecological (with/without CBT and MET)",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "Family-based treatment – behavioral",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "Motivational interviewing/MET",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "Combined family-based treatment-ecological and contingency management",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "Family-based treatment (behavioral, ecological, contingency management) with MET",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "MET with CBT plus contingency management",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "Drug counseling/12-Step",
+      "problem": "Drug & Alcohol Abuse",
+      "ageGroup": "Effective Therapies for Adolescents with Substance Use Disorder",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/"
+    },
+    {
+      "name": "Family therapy-behavior (AKA family-based treatment)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family therapy-systemic",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Insight-oriented psychotherapy (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Adolescent-focused therapy (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Parent-focused therapy",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Guided self-help, telephone assisted therapy (Experienced Carer Helping Others, or ECHO)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family-based treatment + cognitive remediation training and family-based treatment + art therapy",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "CBT – broad (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Cognitive remediation training (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family-based treatment – intensive parental coaching",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "DBT skills group",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family-based treatment + DBT skills",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family-based treatment – guided self-help for waitlist",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Outpatient family therapy with/without family meal",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Effective Therapies for Eating Disorders",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family-based treatment – bulimia nervosa",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined:",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "CBT – guided self-help (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined:",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "CBT (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined:",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Supportive psychotherapy (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined:",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Guided self-help – waitlist",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined:",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "CBT – internet facilitated (self-help)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "CBT",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family-based treatment",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "IPT (individual)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "DBT (individual and family)",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Family-based treatment",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "CBT",
+      "problem": "Eating & Body Image Problems",
+      "ageGroup": "Therapies and Terms Defined",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+    },
+    {
+      "name": "Urine alarm",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Dry-Bed Training",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Full Spectrum Home Therapy",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Lifting",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Hypnotherapy",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Retention control training",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Biofeedback",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Enhanced Toilet Training",
+      "problem": "Elimination Disorders",
+      "ageGroup": "Effective Therapies for Pediatric Elimination Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/elimination-disorders/"
+    },
+    {
+      "name": "Family-based CBT",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Group Parent CBT",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Group Parent CBT + Group Child CBT",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Play therapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Attachment-Based Therapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Relaxation Training",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "CBT",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Exposure",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Modeling",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "CBT with parents",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Education",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "CBT with medication",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Family psychoeducation",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Relaxation; assertiveness training",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Attention control",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "CBT for child and parent",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Cultural storytelling",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Hypnosis",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Stress inoculation",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Contingency management",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Group therapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Biofeedback",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "CBT with parents only",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Play therapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Psychodynamic",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Rational emotive therapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Social skills",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Assessment/monitoring",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Attachment therapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Client-centered therapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Eye movement desensitization and reprocessing",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Peer pairing",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Psychoeducation",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Relationship counseling",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Teacher psychotherapy",
+      "problem": "Fear, Worry, & Anxiety Disorders",
+      "ageGroup": "Effective Therapies for Anxiety",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+    },
+    {
+      "name": "Behavioral interventions (any combination) – BPT",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Behavioral interventions (any combination) – BCM",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Behavioral interventions (any combination) – BPI",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Organization training",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Combined training interventions",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Neurofeedback training",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Cognitive training",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Social skills training",
+      "problem": "Inattention & Hyperactivity (ADHD)",
+      "ageGroup": "Effective Therapies for ADHD",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/"
+    },
+    {
+      "name": "Behavior therapy – Family-based Treatment (FBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavioral weight loss treatment with family involvement",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Motivational Interviewing",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Family-based Treatment (FBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Parent-only Behavioral Treatment (PBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – FBT-Group",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – FBT-Web",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – FBT-Parent-only",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – Low-dose FBT",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – Low-dose FBT + Motivational Interviewing",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – FBT-educational board game",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – FBT + Peer",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Behavioral weight loss treatment with family involvement",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Camp-based behavioral weight loss treatment",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-based Treatment (FBT) – FBT + exercise",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Behavioral weight loss treatment (BWL)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Group BWL + family",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – BWL + parent-comp",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Home-based BWL",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Cognitive-behavioral therapy (CBT) – Parent only",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "CBT – Peer Enhanced Adventure Therapy (PEAT) – males only",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Parents-only BWL",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "BWL via newsletter",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Smartphone/App-based BWL",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Cognitive-behavioral Therapy (CBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "CBT + Parent component",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Low Intensity Motivational Interviewing",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Text-based Motivational Interviewing",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavioral weight loss treatment (BWL) + Motivational Interviewing",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Family-based Treatment (FBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "FBT at home",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "FBT + Motivational Interviewing (MI)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "FBT – Parent-only",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Community-based behavioral weight loss treatment (BWL)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Cognitive-behavioral Therapy (CBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "CBT in integrated care",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "MI + Parent component",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Group Behavioral weight loss treatment (BWL)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Inpatient CBT",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "CBT + Lifestyle Intervention (LI)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Mindful Eating",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "BWL + Peer support",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "School-based BWL",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Motivational Interviewing (MI)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Mindfulness",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Family-based Treatment (FBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Parent-only Behavioral Treatment (PBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "FBT + Social Facilitation Maintenance (SFM)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavioral weight loss treatment (BWL) with family involvement",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "BWL + Parent component",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "BWL + Stress management",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "FBT + Dialectical Behavior Therapy (DBT)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Group Behavioral weight loss treatment (BWL)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Low-dose BWL + family",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "BWL + exercise (males only)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Camp-based BWL",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Mindfulness + nutritional counseling",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Smartphone/App-based BWL",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavior therapy – Family-based Treatment (FBT) – Group",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Behavioral weight loss treatment (BWL)",
+      "problem": "Obesity & Overweight",
+      "ageGroup": "Effective Therapies for Overweight and Obesity",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/"
+    },
+    {
+      "name": "Family-focused CBT",
+      "problem": "Obsessions, Compulsions, & OCD",
+      "ageGroup": "Effective Therapies for Obsessive-Compulsive Disorder",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/"
+    },
+    {
+      "name": "CBT (individual, Non face-to-face CBT)",
+      "problem": "Obsessions, Compulsions, & OCD",
+      "ageGroup": "Effective Therapies for Obsessive-Compulsive Disorder",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/"
+    },
+    {
+      "name": "Group CBT (family-focused, non-family focused)",
+      "problem": "Obsessions, Compulsions, & OCD",
+      "ageGroup": "Effective Therapies for Obsessive-Compulsive Disorder",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/"
+    },
+    {
+      "name": "Acceptance and Commitment Therapy",
+      "problem": "Obsessions, Compulsions, & OCD",
+      "ageGroup": "Effective Therapies for Obsessive-Compulsive Disorder",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/"
+    },
+    {
+      "name": "Attachment-based therapy",
+      "problem": "Obsessions, Compulsions, & OCD",
+      "ageGroup": "Effective Therapies for Obsessive-Compulsive Disorder",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/"
+    },
+    {
+      "name": "CBT – Individual",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "CBT – Group",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "CBT – Individual with parent involvement",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Group CBT with parent involvement",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Eye movement desensitization and reprocessing (EMDR)",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Integrated therapy for complex trauma",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Group mind–body skills",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Client-centered play therapy",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Mind–body skills",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Psychoanalysis",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "Group creative expressive + CBT",
+      "problem": "Post-Traumatic Stress Disorder",
+      "ageGroup": "Effective Therapies for PTSD",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/"
+    },
+    {
+      "name": "CBT – Comprehensive",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "CBT – Group",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "CBT – Technology-assisted",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Behavior therapy",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Individual CBT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Psychodynamic therapy",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Family-based intervention",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Overall CBT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Individual CBT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Group CBT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Overall IPT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Individual IPT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Group IPT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Bibliotherapy CBT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Family-based intervention",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Technology-assisted CBT",
+      "problem": "Sadness, Hopelessness, & Depression",
+      "ageGroup": "Effective Therapies for Depression",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/"
+    },
+    {
+      "name": "Multimodal therapy (includes components of many other therapies for psychotic disorders)",
+      "problem": "Schizophrenia",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    },
+    {
+      "name": "Family-focused therapy",
+      "problem": "Schizophrenia",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    },
+    {
+      "name": "CBT for psychosis",
+      "problem": "Schizophrenia",
+      "ageGroup": "",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    },
+    {
+      "name": "Employment/Education programs",
+      "problem": "Schizophrenia",
+      "ageGroup": "",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    },
+    {
+      "name": "Omega-3 fatty acids supplementation",
+      "problem": "Schizophrenia",
+      "ageGroup": "",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    },
+    {
+      "name": "Social skills training",
+      "problem": "Schizophrenia",
+      "ageGroup": "",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    },
+    {
+      "name": "Insight-oriented therapies",
+      "problem": "Schizophrenia",
+      "ageGroup": "",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    },
+    {
+      "name": "DBT-A (DSH, SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "DBT-A (NSSI, SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "CBT – Individual + Family (SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Integrated Family Therapy (SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "IPT-A – Individual (SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Psychodynamic Therapy – Individual + Family (DSH)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Parent Training (SITB)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Multiple Systems Therapy (SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "CBT-Individual (SA, SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "CBT-Individual + Family (SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Psychodynamic Therapy – Family-Based (SI, SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Integrated Family Therapy (NSSI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Family Therapy (SI, DSH)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Multiple Systems Therapy (SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Brief Family-Based Therapy (SA, SI, DSH)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Support-Based Therapy (SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Brief Skills Training (NSSI, SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Motivational Interviewing (SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Resource Interventions (DSH, SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Eclectic Group Therapy (DSH, SI)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Support-Based Therapy (SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Resource Intervention (SA)",
+      "problem": "Self-Injurious Thoughts & Behaviors",
+      "ageGroup": "Effective Therapies for Self-Injurious Thoughts and Behaviors",
+      "level": "5",
+      "levelLabel": "Tested and Does Not Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/self-injurious-thoughts-and-behaviors/"
+    },
+    {
+      "name": "Family skill building plus psychoeducation",
+      "problem": "Severe Mood Swings & Bipolar Spectrum Disorders",
+      "ageGroup": "Effective Therapies for Bipolar Disorder and Severe Mood Swings",
+      "level": "1",
+      "levelLabel": "Works Well",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/"
+    },
+    {
+      "name": "Dialectical behavior therapy",
+      "problem": "Severe Mood Swings & Bipolar Spectrum Disorders",
+      "ageGroup": "Effective Therapies for Bipolar Disorder and Severe Mood Swings",
+      "level": "2",
+      "levelLabel": "Works",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/"
+    },
+    {
+      "name": "Omega 3 fatty acids",
+      "problem": "Severe Mood Swings & Bipolar Spectrum Disorders",
+      "ageGroup": "Effective Therapies for Bipolar Disorder and Severe Mood Swings",
+      "level": "3",
+      "levelLabel": "Might Work",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/"
+    },
+    {
+      "name": "Interpersonal and social rhythm therapy",
+      "problem": "Severe Mood Swings & Bipolar Spectrum Disorders",
+      "ageGroup": "Effective Therapies for Bipolar Disorder and Severe Mood Swings",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/"
+    },
+    {
+      "name": "Multi-nutrient supplements",
+      "problem": "Severe Mood Swings & Bipolar Spectrum Disorders",
+      "ageGroup": "Effective Therapies for Bipolar Disorder and Severe Mood Swings",
+      "level": "4",
+      "levelLabel": "Experimental",
+      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/"
+    }
+  ]
+}

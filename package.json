@@ -1,0 +1,12 @@
+{
+  "name": "ebp-directory",
+  "version": "1.0.0",
+  "description": "Searchable directory of evidence-based therapies and interventions, aggregated from major EBP registries, with a web app and MCP server",
+  "private": true,
+  "scripts": {
+    "serve": "python -m http.server 8321 -d web",
+    "refresh": "python scripts/refresh.py",
+    "build-data": "cd scrapers && python build_dataset.py",
+    "mcp": "node mcp-server/index.js"
+  }
+}

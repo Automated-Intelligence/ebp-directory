@@ -1,0 +1,12 @@
+{
+  "name": "ebp-directory-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing the EBP Directory dataset of evidence-based therapies and interventions",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "ebp-directory-mcp": "index.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
