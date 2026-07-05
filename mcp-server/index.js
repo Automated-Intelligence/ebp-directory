@@ -43,6 +43,8 @@ function compact(i) {
     aka: i.aka,
     modality: i.modality,
     tier: i.tier,
+    tierForProblem: i.tierForProblem,
+    cautionForProblem: i.cautionForProblem,
     cautionFlag: i.cautionFlag,
     problems: i.problems,
     populations: i.populations,
@@ -51,17 +53,38 @@ function compact(i) {
   };
 }
 
+const TIER_ORDER = ["not-supported", "caution", "listed", "experimental", "promising", "supported", "well-supported"];
+const tierRank = (t) => TIER_ORDER.indexOf(t);
+
 function searchItems({ query, tier, problem, population, modality, source }) {
   let list = DATA.interventions;
   if (query) {
     const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
     list = list.filter((i) => tokens.every((t) => i._blob.includes(t)));
   }
-  if (tier) list = list.filter((i) => i.tier === tier);
-  if (problem) list = list.filter((i) => i.problems.includes(problem));
   if (population) list = list.filter((i) => i.populations.includes(population));
   if (modality) list = list.filter((i) => i.modality.toLowerCase().includes(modality.toLowerCase()));
   if (source) list = list.filter((i) => i.sources.includes(source));
+
+  if (problem) {
+    // Rank and badge by the rating FOR the requested problem, not the best
+    // rating for any problem (an EBP for schizophrenia may be rated "does not
+    // work" for ADHD).
+    list = list
+      .map((i) => {
+        const rows = i.evidence.filter((e) => (e.problemTags || []).includes(problem));
+        if (!rows.length) return null;
+        const ctxTier = rows.map((e) => e.tier).reduce((a, b) => (tierRank(b) > tierRank(a) ? b : a));
+        return {
+          ...i,
+          tierForProblem: ctxTier,
+          cautionForProblem: rows.some((e) => e.tier === "caution" || e.tier === "not-supported"),
+        };
+      })
+      .filter(Boolean)
+      .sort((a, b) => tierRank(b.tierForProblem) - tierRank(a.tierForProblem) || b.sources.length - a.sources.length);
+  }
+  if (tier) list = list.filter((i) => (i.tierForProblem ?? i.tier) === tier);
   return list;
 }
 

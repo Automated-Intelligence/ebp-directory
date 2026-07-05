@@ -243,13 +243,15 @@ def main():
         for r in buffalo["records"]:
             g = get_group(groups, r["name"])
             g["modality"] = g["modality"] or r["modality"]
-            g["problems"].update(tag_problems(r["problem"], r["note"], r["name"]))
+            tags = tag_problems(r["problem"], r["note"], r["name"])
+            g["problems"].update(tags)
             g["populations"].add("children-adolescents")
             g["links"].add(r["url"])
             g["evidence"].append({
                 "source": "buffalo", "rating": "Listed",
                 "ratingLabel": "Included on UB School of Social Work EBP list",
                 "problem": r["problem"] + ((" — " + r["note"]) if r["note"] else ""),
+                "problemTags": tags,
                 "url": buffalo["baseUrl"], "tier": "listed",
             })
 
@@ -258,13 +260,15 @@ def main():
         sources_meta["ect"] = {k: ect[k] for k in ("sourceName", "baseUrl", "scrapedAt", "notes", "recordCount")}
         for r in ect["records"]:
             g = get_group(groups, r["name"])
-            g["problems"].update(tag_problems(r["problem"], r["name"]))
+            tags = tag_problems(r["problem"], r["name"])
+            g["problems"].update(tags)
             g["populations"].add("children-adolescents")
             g["links"].add(r["url"])
             g["evidence"].append({
                 "source": "ect", "rating": f"Level {r['level']}",
                 "ratingLabel": r["levelLabel"],
                 "problem": r["problem"] + ((f" ({r['ageGroup']})") if r["ageGroup"] else ""),
+                "problemTags": tags,
                 "url": r["url"], "tier": evidence_tier("ect", r["level"]),
             })
 
@@ -273,7 +277,8 @@ def main():
         sources_meta["div12"] = {k: div12[k] for k in ("sourceName", "baseUrl", "scrapedAt", "notes", "recordCount")}
         for r in div12["records"]:
             g = get_group(groups, r["name"])
-            g["problems"].update(tag_problems(r["problem"], r["name"]))
+            tags = tag_problems(r["problem"], r["name"])
+            g["problems"].update(tags)
             pop = "adolescents" if "adolescen" in r["fullTitle"].lower() else "adults"
             g["populations"].add(pop)
             g["links"].add(r["url"])
@@ -283,6 +288,7 @@ def main():
                 "source": "div12", "rating": r["rating"] or "Listed",
                 "ratingLabel": r["rating"] or "On classic Div 12 EST list",
                 "problem": r["problem"],
+                "problemTags": tags,
                 "url": r["url"], "archivedUrl": r["archivedUrl"],
                 "archivedAt": r["archivedAt"],
                 "tier": evidence_tier("div12", r["rating"]),
@@ -295,7 +301,8 @@ def main():
             if not r.get("rating"):
                 continue  # skip unrated shells
             g = get_group(groups, r["name"])
-            g["problems"].update(tag_problems(r.get("topic", ""), r.get("targetPopulation", ""), r["name"]))
+            tags = tag_problems(r.get("topic", ""), r.get("targetPopulation", ""), r["name"])
+            g["problems"].update(tags)
             g["populations"].add("children-adolescents")
             g["links"].add(r["url"])
             if r.get("summary") and len(r["summary"]) > len(g["summary"]):
@@ -304,6 +311,7 @@ def main():
                 "source": "cebc", "rating": r["rating"],
                 "ratingLabel": r["ratingLabel"],
                 "problem": r.get("topic", "") or r.get("targetPopulation", "")[:120],
+                "problemTags": tags,
                 "url": r["url"], "tier": evidence_tier("cebc", r["rating"]),
             })
 

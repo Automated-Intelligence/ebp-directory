@@ -12,6 +12,8 @@
     return;
   }
 
+  const TIER_ORDER = ["not-supported", "caution", "listed", "experimental", "promising", "supported", "well-supported"];
+  const tierRank = (t) => TIER_ORDER.indexOf(t);
   const TIER_LABELS = {
     "well-supported": "Well-supported",
     "supported": "Supported",
@@ -94,16 +96,45 @@
       pop = $("f-population").value,
       mod = $("f-modality").value,
       src = $("f-source").value;
-    if (tier) list = list.filter((i) => i.tier === tier);
-    if (prob) list = list.filter((i) => i.problems.includes(prob));
     if (pop) list = list.filter((i) => i.populations.includes(pop));
     if (mod) list = list.filter((i) => i.modality === mod);
     if (src) list = list.filter((i) => i.sources.includes(src));
+
+    if (prob) {
+      // Problem filter: only interventions with evidence FOR that problem, and
+      // rank/badge them by their rating for that problem — an intervention
+      // that's well-supported for schizophrenia but "does not work" for ADHD
+      // must not top the ADHD list.
+      list = list
+        .map((i) => {
+          const rows = i.evidence.filter((e) => (e.problemTags || []).includes(prob));
+          if (!rows.length) return null;
+          const ctxTier = rows.map((e) => e.tier).reduce((a, b) => (tierRank(b) > tierRank(a) ? b : a));
+          const ctxCaution = rows.some((e) => e.tier === "caution" || e.tier === "not-supported");
+          return { ...i, _ctxTier: ctxTier, _ctxCaution: ctxCaution, _ctxProb: prob };
+        })
+        .filter(Boolean)
+        .sort(
+          (a, b) =>
+            tierRank(b._ctxTier) - tierRank(a._ctxTier) ||
+            b.sources.length - a.sources.length ||
+            a.name.localeCompare(b.name)
+        );
+    }
+    if (tier) list = list.filter((i) => (i._ctxTier || i.tier) === tier);
     return list;
   }
 
   function evidenceRows(i) {
-    return i.evidence
+    let rows = i.evidence;
+    if (i._ctxProb) {
+      // matching-problem rows first
+      rows = [...rows].sort(
+        (a, b) =>
+          (b.problemTags || []).includes(i._ctxProb) - (a.problemTags || []).includes(i._ctxProb)
+      );
+    }
+    return rows
       .map((e) => {
         const src = SOURCE_SHORT[e.source] || e.source;
         const link = e.archivedUrl || e.url;
@@ -122,11 +153,22 @@
 
   function card(i) {
     const aka = i.aka.length ? `<span class="aka">${esc(i.aka.slice(0, 3).join(" · "))}</span>` : "";
-    const caution = i.cautionFlag
-      ? `<span class="pill-caution">⚠ mixed findings — see evidence</span>`
+    // With a problem filter active, the headline badge is the rating FOR that
+    // problem; the overall tier moves to a secondary outline badge.
+    const ctx = i._ctxProb;
+    const shownTier = ctx ? i._ctxTier : i.tier;
+    const shownCaution = ctx ? i._ctxCaution : i.cautionFlag;
+    const tierBadge = ctx
+      ? `<span class="badge tier-${esc(shownTier)}">${esc(TIER_LABELS[shownTier] || shownTier)} for ${esc(ctx)}</span>` +
+        (i.tier !== shownTier
+          ? `<span class="badge outline">overall: ${esc(TIER_LABELS[i.tier] || i.tier)}</span>`
+          : "")
+      : `<span class="badge tier-${esc(shownTier)}">${esc(TIER_LABELS[shownTier] || shownTier)}</span>`;
+    const caution = shownCaution
+      ? `<span class="pill-caution">⚠ ${ctx ? `registry reports it does not work for ${esc(ctx)}` : "mixed findings"} — see evidence</span>`
       : "";
-    const cautionNote = i.cautionFlag
-      ? `<div class="caution-note">At least one registry reports mixed, null, or concerning findings for this intervention (possibly for a specific problem or population). Review the evidence rows below and follow the source links before relying on it.</div>`
+    const cautionNote = shownCaution
+      ? `<div class="caution-note">At least one registry reports mixed, null, or concerning findings for this intervention${ctx ? ` for <strong>${esc(ctx)}</strong>` : ""} (possibly for a specific problem or population). Review the evidence rows below and follow the source links before relying on it.</div>`
       : "";
     const summary = i.summary ? `<p class="summary">${esc(i.summary)}</p>` : "";
     const links = i.links.length
@@ -140,7 +182,7 @@
     return `<div class="card" data-id="${esc(i.id)}">
       <h3>${esc(i.name)}${aka}${caution}</h3>
       <div class="badges">
-        <span class="badge tier-${esc(i.tier)}">${esc(TIER_LABELS[i.tier] || i.tier)}</span>
+        ${tierBadge}
         <span class="badge outline">${esc(i.modality)}</span>
         ${i.populations.map((p) => `<span class="badge outline">${esc(POP_LABELS[p] || p)}</span>`).join("")}
         ${i.sources.map((s) => `<span class="badge outline">${esc(SOURCE_SHORT[s] || s)}</span>`).join("")}
