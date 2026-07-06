@@ -2,7 +2,7 @@
   "source": "cebc",
   "sourceName": "California Evidence-Based Clearinghouse for Child Welfare (CEBC)",
   "baseUrl": "https://www.cebc4cw.org/",
-  "scrapedAt": "2026-07-05",
+  "scrapedAt": "2026-07-06",
   "notes": "Programs relevant to child welfare, rated on the CEBC Scientific Rating Scale (1 = Well-Supported ... 5 = Concerning Practice; NR = Not able to be Rated).",
   "ratingScale": {
     "1": "Well-Supported by Research Evidence",
@@ -405,7 +405,7 @@
       "summary": ""
     },
     {
-      "name": "Attachment, Regulation, and Competency (ARC) [Trauma Treatment – Client-Level Interventions (Child & Adolescent)]",
+      "name": "Attachment, Regulation, and Competency (ARC)",
       "url": "https://www.cebc4cw.org/program/attachment-regulation-and-competency-arc-client/",
       "rating": "NR",
       "ratingLabel": "Not able to be Rated",
@@ -415,7 +415,7 @@
       "summary": ""
     },
     {
-      "name": "Attachment, Regulation, and Competency (ARC) [Trauma Treatment – System-Level Programs (Child & Adolescent)]",
+      "name": "Attachment, Regulation, and Competency (ARC)",
       "url": "https://www.cebc4cw.org/program/attachment-regulation-and-competency-arc-system/",
       "rating": "NR",
       "ratingLabel": "Not able to be Rated",
@@ -1705,7 +1705,7 @@
       "summary": ""
     },
     {
-      "name": "Eye Movement Desensitization and Reprocessing (EMDR) [Trauma Treatment (Adult)]",
+      "name": "Eye Movement Desensitization and Reprocessing (EMDR)",
       "url": "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing-for-adults/",
       "rating": "1",
       "ratingLabel": "Well-Supported by Research Evidence",
@@ -1715,7 +1715,7 @@
       "summary": ""
     },
     {
-      "name": "Eye Movement Desensitization and Reprocessing (EMDR) [Trauma Treatment – Client-Level Interventions (Child & Adolescent)]",
+      "name": "Eye Movement Desensitization and Reprocessing (EMDR)",
       "url": "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing/",
       "rating": "1",
       "ratingLabel": "Well-Supported by Research Evidence",

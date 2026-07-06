@@ -151,6 +151,7 @@ server.tool(
       interventionCount: DATA.interventionCount,
       tierDefinitions: DATA.tierDefinitions,
       problems: uniq((i) => i.problems),
+      problemLabels: DATA.problemLabels,
       populations: uniq((i) => i.populations),
       modalities: uniq((i) => [i.modality]),
       registries: DATA.sources,

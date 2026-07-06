@@ -27,6 +27,10 @@ def parse_program(url, html):
     name = re.split(r"\s*[–|-]\s*The California", strip_tags(title_m.group(1)))[0].strip()
     if not name or name.lower().startswith("page not found"):
         return None
+    # Some programs are rated under several topic areas and carry the topic in
+    # brackets, e.g. "EMDR [Trauma Treatment (Adult)]" — keep it as topic, not name.
+    bracket = re.search(r"\[([^\]]+)\]", name)
+    name = re.sub(r"\s*\[[^\]]*\]", "", name).strip()
 
     text = strip_tags(html)
 
@@ -41,6 +45,8 @@ def parse_program(url, html):
     tm = re.search(r"Topic Area\(?s?\)?\s*:?\s*(.{3,120}?)(?:\s{2,}|Scientific Rating|About This)", text)
     if tm:
         topic = tm.group(1).strip(" :|")
+    if not topic and bracket:
+        topic = bracket.group(1)
 
     population = ""
     pm = re.search(r"Target Population\s*:?\s*(.{3,300}?)(?:\s*For children/adolescents ages|\s*For parents|\s*Brief Description|Program Overview|$)", text)

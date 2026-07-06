@@ -80,6 +80,7 @@ CANONICAL_NAMES = {
 
 def norm(name):
     s = name.lower()
+    s = re.sub(r"\[.*?\]", " ", s)
     s = re.sub(r"\(.*?\)", " ", s)
     s = re.sub(r"[^a-z0-9 ]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
@@ -129,6 +130,35 @@ PROBLEM_TAGS = [
     ("relationship-couples", r"couple|marital|intimate partner|domestic violence"),
     ("stress-coping", r"stress|coping|resilien|adjust|divorce|natural disaster|bullying"),
 ]
+
+
+PROBLEM_LABELS = {
+    "anxiety": "Anxiety & Phobias",
+    "depression": "Depression & Mood",
+    "trauma-ptsd": "Trauma & PTSD",
+    "ocd": "OCD & Related",
+    "adhd": "ADHD & Attention",
+    "autism": "Autism Spectrum",
+    "behavior-problems": "Behavior Problems & Conduct",
+    "substance-use": "Substance Use",
+    "eating-disorders": "Eating Disorders",
+    "bipolar": "Bipolar Spectrum",
+    "psychosis-schizophrenia": "Psychosis & Schizophrenia",
+    "personality-disorders": "Personality Disorders",
+    "suicide-self-harm": "Suicide & Self-Harm",
+    "sleep": "Sleep Problems",
+    "grief-loss": "Grief & Loss",
+    "chronic-pain-health": "Chronic Pain & Physical Health",
+    "parenting-family": "Parenting & Family",
+    "child-welfare": "Child Welfare",
+    "school": "School-Based Concerns",
+    "tics": "Tics & Tourette",
+    "elimination": "Elimination Disorders",
+    "gambling": "Gambling",
+    "gender-identity": "Gender Identity",
+    "relationship-couples": "Couples & Relationships",
+    "stress-coping": "Stress & Coping",
+}
 
 
 def tag_problems(*texts):
@@ -349,6 +379,7 @@ def main():
             "caution": "A registry has flagged mixed/concerning findings — read the evidence entries",
             "not-supported": "Tested and evidence fails to demonstrate effect",
         },
+        "problemLabels": PROBLEM_LABELS,
         "sources": sources_meta,
         "interventionCount": len(interventions),
         "interventions": interventions,

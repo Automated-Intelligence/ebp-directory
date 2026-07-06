@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-05",
+ "generated": "2026-07-06",
  "tierDefinitions": {
   "well-supported": "Strongest evidence: multiple rigorous RCTs by independent teams (Div 12 'Strong', CEBC 1, SCCAP Level 1)",
   "supported": "Good evidence: at least one strong RCT or several smaller trials (Div 12 'Modest', CEBC 2, SCCAP Level 2)",
@@ -8,6 +8,33 @@
   "listed": "Included on a curated EBP list without a formal rating",
   "caution": "A registry has flagged mixed/concerning findings — read the evidence entries",
   "not-supported": "Tested and evidence fails to demonstrate effect"
+ },
+ "problemLabels": {
+  "anxiety": "Anxiety & Phobias",
+  "depression": "Depression & Mood",
+  "trauma-ptsd": "Trauma & PTSD",
+  "ocd": "OCD & Related",
+  "adhd": "ADHD & Attention",
+  "autism": "Autism Spectrum",
+  "behavior-problems": "Behavior Problems & Conduct",
+  "substance-use": "Substance Use",
+  "eating-disorders": "Eating Disorders",
+  "bipolar": "Bipolar Spectrum",
+  "psychosis-schizophrenia": "Psychosis & Schizophrenia",
+  "personality-disorders": "Personality Disorders",
+  "suicide-self-harm": "Suicide & Self-Harm",
+  "sleep": "Sleep Problems",
+  "grief-loss": "Grief & Loss",
+  "chronic-pain-health": "Chronic Pain & Physical Health",
+  "parenting-family": "Parenting & Family",
+  "child-welfare": "Child Welfare",
+  "school": "School-Based Concerns",
+  "tics": "Tics & Tourette",
+  "elimination": "Elimination Disorders",
+  "gambling": "Gambling",
+  "gender-identity": "Gender Identity",
+  "relationship-couples": "Couples & Relationships",
+  "stress-coping": "Stress & Coping"
  },
  "sources": {
   "buffalo": {
@@ -34,12 +61,12 @@
   "cebc": {
    "sourceName": "California Evidence-Based Clearinghouse for Child Welfare (CEBC)",
    "baseUrl": "https://www.cebc4cw.org/",
-   "scrapedAt": "2026-07-05",
+   "scrapedAt": "2026-07-06",
    "notes": "Programs relevant to child welfare, rated on the CEBC Scientific Rating Scale (1 = Well-Supported ... 5 = Concerning Practice; NR = Not able to be Rated).",
    "recordCount": 603
   }
  },
- "interventionCount": 870,
+ "interventionCount": 867,
  "interventions": [
   {
    "id": "acceptance-and-commitment-therapy",
@@ -507,6 +534,109 @@
    "sources": [
     "buffalo",
     "div12",
+    "ect"
+   ]
+  },
+  {
+   "id": "eye-movement-desensitization-and-reprocessing",
+   "name": "Eye Movement Desensitization and Reprocessing (EMDR)",
+   "aka": [
+    "EMDR",
+    "Eye movement desensitization and reprocessing",
+    "Eye movement desensitization and reprocessing (EMDR)"
+   ],
+   "modality": "Eye Movement Desensitization and Reprocessing (EMDR)",
+   "problems": [
+    "anxiety",
+    "behavior-problems",
+    "chronic-pain-health",
+    "depression",
+    "stress-coping",
+    "trauma-ptsd"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "well-supported",
+   "cautionFlag": true,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/",
+    "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing-for-adults/",
+    "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing/",
+    "https://www.emdria.org/"
+   ],
+   "evidence": [
+    {
+     "source": "buffalo",
+     "rating": "Listed",
+     "ratingLabel": "Included on UB School of Social Work EBP list",
+     "problem": "Anxiety, Depression, and Trauma/PTSD",
+     "problemTags": [
+      "anxiety",
+      "depression",
+      "trauma-ptsd"
+     ],
+     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
+     "tier": "listed"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 5",
+     "ratingLabel": "Tested and Does Not Work",
+     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
+     "problemTags": [
+      "anxiety"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
+     "tier": "not-supported"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 2",
+     "ratingLabel": "Works",
+     "problem": "Post-Traumatic Stress Disorder (Effective Therapies for PTSD)",
+     "problemTags": [
+      "trauma-ptsd",
+      "stress-coping"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/",
+     "tier": "supported"
+    },
+    {
+     "source": "cebc",
+     "rating": "1",
+     "ratingLabel": "Well-Supported by Research Evidence",
+     "problem": "Trauma Treatment (Adult)",
+     "problemTags": [
+      "anxiety",
+      "trauma-ptsd",
+      "chronic-pain-health",
+      "stress-coping"
+     ],
+     "url": "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing-for-adults/",
+     "tier": "well-supported"
+    },
+    {
+     "source": "cebc",
+     "rating": "1",
+     "ratingLabel": "Well-Supported by Research Evidence",
+     "problem": "Trauma Treatment - Client-Level Interventions (Child & Adolescent)",
+     "problemTags": [
+      "anxiety",
+      "trauma-ptsd",
+      "behavior-problems",
+      "chronic-pain-health",
+      "stress-coping"
+     ],
+     "url": "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing/",
+     "tier": "well-supported"
+    }
+   ],
+   "sources": [
+    "buffalo",
+    "cebc",
     "ect"
    ]
   },
@@ -3255,92 +3385,6 @@
    ]
   },
   {
-   "id": "eye-movement-desensitization-and-reprocessing-trauma-treatment",
-   "name": "Eye Movement Desensitization and Reprocessing (EMDR) [Trauma Treatment (Adult)]",
-   "aka": [
-    "EMDR"
-   ],
-   "modality": "EMDR",
-   "problems": [
-    "anxiety",
-    "chronic-pain-health",
-    "stress-coping",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing-for-adults/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "1",
-     "ratingLabel": "Well-Supported by Research Evidence",
-     "problem": "Trauma Treatment (Adult)",
-     "problemTags": [
-      "anxiety",
-      "trauma-ptsd",
-      "chronic-pain-health",
-      "stress-coping"
-     ],
-     "url": "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing-for-adults/",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
-   "id": "eye-movement-desensitization-and-reprocessing-trauma-treatment-client-level-inte",
-   "name": "Eye Movement Desensitization and Reprocessing (EMDR) [Trauma Treatment – Client-Level Interventions (Child & Adolescent)]",
-   "aka": [
-    "EMDR"
-   ],
-   "modality": "EMDR",
-   "problems": [
-    "anxiety",
-    "behavior-problems",
-    "chronic-pain-health",
-    "stress-coping",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "1",
-     "ratingLabel": "Well-Supported by Research Evidence",
-     "problem": "Trauma Treatment - Client-Level Interventions (Child & Adolescent)",
-     "problemTags": [
-      "anxiety",
-      "trauma-ptsd",
-      "behavior-problems",
-      "chronic-pain-health",
-      "stress-coping"
-     ],
-     "url": "https://www.cebc4cw.org/program/eye-movement-desensitization-and-reprocessing/",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
    "id": "familias-unidas",
    "name": "Familias Unidas",
    "aka": [],
@@ -5510,75 +5554,6 @@
    "sources": [
     "buffalo",
     "cebc"
-   ]
-  },
-  {
-   "id": "eye-movement-desensitization-and-reprocessing",
-   "name": "Eye Movement Desensitization and Reprocessing (EMDR)",
-   "aka": [
-    "EMDR",
-    "Eye movement desensitization and reprocessing",
-    "Eye movement desensitization and reprocessing (EMDR)"
-   ],
-   "modality": "Eye Movement Desensitization and Reprocessing (EMDR)",
-   "problems": [
-    "anxiety",
-    "depression",
-    "stress-coping",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "supported",
-   "cautionFlag": true,
-   "summary": "",
-   "links": [
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/",
-    "https://www.emdria.org/"
-   ],
-   "evidence": [
-    {
-     "source": "buffalo",
-     "rating": "Listed",
-     "ratingLabel": "Included on UB School of Social Work EBP list",
-     "problem": "Anxiety, Depression, and Trauma/PTSD",
-     "problemTags": [
-      "anxiety",
-      "depression",
-      "trauma-ptsd"
-     ],
-     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
-     "tier": "listed"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 5",
-     "ratingLabel": "Tested and Does Not Work",
-     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
-     "tier": "not-supported"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 2",
-     "ratingLabel": "Works",
-     "problem": "Post-Traumatic Stress Disorder (Effective Therapies for PTSD)",
-     "problemTags": [
-      "trauma-ptsd",
-      "stress-coping"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/post-traumatic-stress-disorder/",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "buffalo",
-    "ect"
    ]
   },
   {
@@ -22627,46 +22602,8 @@
    ]
   },
   {
-   "id": "attachment-regulation-and-competency-trauma-treatment-client-level-interventions",
-   "name": "Attachment, Regulation, and Competency (ARC) [Trauma Treatment – Client-Level Interventions (Child & Adolescent)]",
-   "aka": [
-    "ARC"
-   ],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "parenting-family",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/attachment-regulation-and-competency-arc-client/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "NR",
-     "ratingLabel": "Not able to be Rated",
-     "problem": "Trauma Treatment - Client-Level Interventions (Child & Adolescent)",
-     "problemTags": [
-      "trauma-ptsd",
-      "parenting-family"
-     ],
-     "url": "https://www.cebc4cw.org/program/attachment-regulation-and-competency-arc-client/",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
-   "id": "attachment-regulation-and-competency-trauma-treatment-system-level-programs",
-   "name": "Attachment, Regulation, and Competency (ARC) [Trauma Treatment – System-Level Programs (Child & Adolescent)]",
+   "id": "attachment-regulation-and-competency",
+   "name": "Attachment, Regulation, and Competency (ARC)",
    "aka": [
     "ARC"
    ],
@@ -22683,9 +22620,22 @@
    "cautionFlag": false,
    "summary": "",
    "links": [
+    "https://www.cebc4cw.org/program/attachment-regulation-and-competency-arc-client/",
     "https://www.cebc4cw.org/program/attachment-regulation-and-competency-arc-system/"
    ],
    "evidence": [
+    {
+     "source": "cebc",
+     "rating": "NR",
+     "ratingLabel": "Not able to be Rated",
+     "problem": "Trauma Treatment - Client-Level Interventions (Child & Adolescent)",
+     "problemTags": [
+      "trauma-ptsd",
+      "parenting-family"
+     ],
+     "url": "https://www.cebc4cw.org/program/attachment-regulation-and-competency-arc-client/",
+     "tier": "listed"
+    },
     {
      "source": "cebc",
      "rating": "NR",
