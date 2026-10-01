@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-06",
+ "generated": "2026-10-01",
  "tierDefinitions": {
   "well-supported": "Strongest evidence: multiple rigorous RCTs by independent teams (Div 12 'Strong', CEBC 1, SCCAP Level 1)",
   "supported": "Good evidence: at least one strong RCT or several smaller trials (Div 12 'Modest', CEBC 2, SCCAP Level 2)",
@@ -40,33 +40,33 @@
   "buffalo": {
    "sourceName": "University at Buffalo School of Social Work – Evidence-Based Practices in Mental Health",
    "baseUrl": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
-   "scrapedAt": "2026-07-05",
+   "scrapedAt": "2026-10-01",
    "notes": "Curated list of EBP interventions for children/adolescents and families, organized by modality and disorder. No formal rating scale; inclusion on the list indicates the intervention is considered evidence-based by the UB School of Social Work continuing-education program.",
    "recordCount": 110
   },
   "ect": {
    "sourceName": "Effective Child Therapy (APA Division 53 / SCCAP)",
    "baseUrl": "https://effectivechildtherapy.org/concerns-symptoms-disorders/",
-   "scrapedAt": "2026-07-05",
+   "scrapedAt": "2026-10-01",
    "notes": "Evidence-based treatments for children and adolescents, rated per disorder/concern using SCCAP's five-level system.",
    "recordCount": 227
   },
   "div12": {
    "sourceName": "APA Division 12 (Society of Clinical Psychology) – Research-Supported Psychological Treatments",
    "baseUrl": "https://societyofclinicalpsychology.org/resource/psychological-treatments/",
-   "scrapedAt": "2026-07-05",
+   "scrapedAt": "2026-10-01",
    "notes": "Classic Division 12 empirically supported treatments list (primarily adult populations), retrieved from Internet Archive snapshots of div12.org. The society is migrating to a new Tolin-criteria review system; ratings here reflect the classic Chambless criteria (Strong = 2+ rigorous RCTs by independent teams; Modest = at least one good trial). Each record carries its snapshot date.",
-   "recordCount": 72
+   "recordCount": 0
   },
   "cebc": {
    "sourceName": "California Evidence-Based Clearinghouse for Child Welfare (CEBC)",
    "baseUrl": "https://www.cebc4cw.org/",
-   "scrapedAt": "2026-07-06",
+   "scrapedAt": "2026-10-01",
    "notes": "Programs relevant to child welfare, rated on the CEBC Scientific Rating Scale (1 = Well-Supported ... 5 = Concerning Practice; NR = Not able to be Rated).",
-   "recordCount": 603
+   "recordCount": 600
   }
  },
- "interventionCount": 867,
+ "interventionCount": 826,
  "interventions": [
   {
    "id": "acceptance-and-commitment-therapy",
@@ -77,28 +77,20 @@
    ],
    "modality": "Cognitive Behavioral Therapy",
    "problems": [
-    "anxiety",
     "chronic-pain-health",
     "depression",
-    "ocd",
-    "psychosis-schizophrenia"
+    "ocd"
    ],
    "populations": [
-    "adults",
     "children-adolescents"
    ],
    "tier": "well-supported",
    "cautionFlag": false,
-   "summary": ": ACT is about both acceptance and change. Clients are encouraged to let go of the struggle to change unwanted thoughts and emotions; instead focusing on the present moment and acting on what the client values most.",
+   "summary": "",
    "links": [
     "http://www.cebc4cw.org/program/acceptance-and-commitment-therapy/",
-    "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-chronic-pain/",
-    "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-depression/",
-    "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-obsessive-compulsive-disorder/",
-    "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-psychosis/",
     "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/",
-    "https://www.cebc4cw.org/program/acceptance-and-commitment-therapy/",
-    "https://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-mixed-anxiety-disorders/"
+    "https://www.cebc4cw.org/program/acceptance-and-commitment-therapy/"
    ],
    "evidence": [
     {
@@ -124,71 +116,6 @@
      "tier": "experimental"
     },
     {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Chronic Pain",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-chronic-pain/",
-     "archivedUrl": "http://web.archive.org/web/20250427233712/https://div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-chronic-pain/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250512152414/https://div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-depression/",
-     "archivedAt": "20250512",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Obsessive-Compulsive Disorder",
-     "problemTags": [
-      "ocd"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-obsessive-compulsive-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427222916/https://div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-obsessive-compulsive-disorder/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Psychosis",
-     "problemTags": [
-      "psychosis-schizophrenia"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-psychosis/",
-     "archivedUrl": "http://web.archive.org/web/20250427233638/https://div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-psychosis/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Mixed Anxiety Disorders",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-mixed-anxiety-disorders/",
-     "archivedUrl": "http://web.archive.org/web/20250321171522/https://div12.org/psychological-treatments/treatments/acceptance-and-commitment-therapy-for-mixed-anxiety-disorders/",
-     "archivedAt": "20250321",
-     "tier": "supported"
-    },
-    {
      "source": "cebc",
      "rating": "1",
      "ratingLabel": "Well-Supported by Research Evidence",
@@ -204,336 +131,6 @@
    "sources": [
     "buffalo",
     "cebc",
-    "div12",
-    "ect"
-   ]
-  },
-  {
-   "id": "dialectical-behavior-therapy",
-   "name": "Dialectical Behavior Therapy (DBT)",
-   "aka": [
-    "DBT (individual and family)",
-    "Dialectical Behavior Therapy",
-    "Dialectical behavior therapy"
-   ],
-   "modality": "Cognitive Behavioral Therapy",
-   "problems": [
-    "bipolar",
-    "depression",
-    "eating-disorders",
-    "parenting-family",
-    "personality-disorders",
-    "suicide-self-harm"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "A subset of individuals experience emotions more intensely than others. In order to regulate heightened emotions, they tend to react in a more extreme and impulsive manner (e.g., self-harm, suicide attempts). It is thought that a lack of awareness and acceptance of these emotional experiences interferes with developing more effective coping strategies for distress.",
-   "links": [
-    "https://behavioraltech.org/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/",
-    "https://www.cebc4cw.org/program/dialectical-behavior-therapy-dbt/",
-    "https://www.div12.org/psychological-treatments/treatments/dialectical-behavior-therapy-for-borderline-personality-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "buffalo",
-     "rating": "Listed",
-     "ratingLabel": "Included on UB School of Social Work EBP list",
-     "problem": "Borderline Personality Disorder",
-     "problemTags": [
-      "personality-disorders"
-     ],
-     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
-     "tier": "listed"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 4",
-     "ratingLabel": "Experimental",
-     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
-     "problemTags": [
-      "eating-disorders",
-      "parenting-family"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-     "tier": "experimental"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 2",
-     "ratingLabel": "Works",
-     "problem": "Severe Mood Swings & Bipolar Spectrum Disorders (Effective Therapies for Bipolar Disorder and Severe Mood Swings)",
-     "problemTags": [
-      "depression",
-      "bipolar"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Borderline Personality Disorder",
-     "problemTags": [
-      "personality-disorders"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/dialectical-behavior-therapy-for-borderline-personality-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250620135951/https://div12.org/psychological-treatments/treatments/dialectical-behavior-therapy-for-borderline-personality-disorder/",
-     "archivedAt": "20250620",
-     "tier": "well-supported"
-    },
-    {
-     "source": "cebc",
-     "rating": "3",
-     "ratingLabel": "Promising Research Evidence",
-     "problem": "Alternatives to Long-Term Residential Care Programs",
-     "problemTags": [
-      "personality-disorders",
-      "suicide-self-harm"
-     ],
-     "url": "https://www.cebc4cw.org/program/dialectical-behavior-therapy-dbt/",
-     "tier": "promising"
-    }
-   ],
-   "sources": [
-    "buffalo",
-    "cebc",
-    "div12",
-    "ect"
-   ]
-  },
-  {
-   "id": "cognitive-behavioral-therapy",
-   "name": "Cognitive Behavioral Therapy (CBT)",
-   "aka": [
-    "CBT",
-    "CBT (individual)",
-    "CBT (individual, Non face-to-face CBT)",
-    "CBT (individual, group, family)",
-    "Cognitive Behavioral Therapy",
-    "Cognitive-behavioral Therapy (CBT)"
-   ],
-   "modality": "Cognitive Behavioral Therapy",
-   "problems": [
-    "anxiety",
-    "chronic-pain-health",
-    "eating-disorders",
-    "ocd",
-    "parenting-family",
-    "substance-use",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": true,
-   "summary": "The underlying premise assumes that patients with OCD experience distorted, dysfunctional thoughts about themselves, the world, and the future, which produce and maintain their anxiety. OCD has been hypothesized to relate to an inflated sense of personal responsibility related to events that may cause harm to either the self or others. Cognitive behavioral therapy aims to help the person identify, challenge, and modify these dysfunctional ideas and adopt more functional behaviors.",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-anorexia-nervosa/",
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-bulimia-nervosa/",
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-chronic-headache/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/",
-    "https://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-binge-eating-disorder/",
-    "https://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-obsessive-compulsive-disorder/",
-    "https://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-panic-disorder/",
-    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928448/"
-   ],
-   "evidence": [
-    {
-     "source": "buffalo",
-     "rating": "Listed",
-     "ratingLabel": "Included on UB School of Social Work EBP list",
-     "problem": "Eating Disorders",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
-     "tier": "listed"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 1",
-     "ratingLabel": "Works Well",
-     "problem": "Drug & Alcohol Abuse (Effective Therapies for Adolescents with Substance Use Disorder)",
-     "problemTags": [
-      "trauma-ptsd",
-      "substance-use",
-      "parenting-family"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/",
-     "tier": "well-supported"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 4",
-     "ratingLabel": "Experimental",
-     "problem": "Eating & Body Image Problems (Therapies and Terms Defined:)",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-     "tier": "experimental"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 3",
-     "ratingLabel": "Might Work",
-     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-     "tier": "promising"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 4",
-     "ratingLabel": "Experimental",
-     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-     "tier": "experimental"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 1",
-     "ratingLabel": "Works Well",
-     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
-     "tier": "well-supported"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 5",
-     "ratingLabel": "Tested and Does Not Work",
-     "problem": "Obesity & Overweight (Effective Therapies for Overweight and Obesity)",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/",
-     "tier": "not-supported"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 3",
-     "ratingLabel": "Might Work",
-     "problem": "Obesity & Overweight (Effective Therapies for Overweight and Obesity)",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/",
-     "tier": "promising"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 2",
-     "ratingLabel": "Works",
-     "problem": "Obsessions, Compulsions, & OCD (Effective Therapies for Obsessive-Compulsive Disorder)",
-     "problemTags": [
-      "ocd"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Anorexia Nervosa",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-anorexia-nervosa/",
-     "archivedUrl": "http://web.archive.org/web/20250427233924/https://div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-anorexia-nervosa/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Bulimia Nervosa",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-bulimia-nervosa/",
-     "archivedUrl": "http://web.archive.org/web/20250427223846/https://div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-bulimia-nervosa/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Chronic Headache",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-chronic-headache/",
-     "archivedUrl": "http://web.archive.org/web/20250427030425/https://div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-chronic-headache/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Binge Eating Disorder",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-binge-eating-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427235448/https://div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-binge-eating-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Obsessive Compulsive Disorder",
-     "problemTags": [
-      "ocd"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-obsessive-compulsive-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427225048/https://div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-obsessive-compulsive-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Panic Disorder",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-panic-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427231304/https://div12.org/psychological-treatments/treatments/cognitive-behavioral-therapy-for-panic-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "buffalo",
-    "div12",
     "ect"
    ]
   },
@@ -638,256 +235,6 @@
     "buffalo",
     "cebc",
     "ect"
-   ]
-  },
-  {
-   "id": "interpersonal-psychotherapy",
-   "name": "Interpersonal Psychotherapy (IPT)",
-   "aka": [
-    "Interpersonal Psychotherapy",
-    "Interpersonal Therapy"
-   ],
-   "modality": "Group Interventions",
-   "problems": [
-    "depression",
-    "eating-disorders"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "Depression often follows changes in one’s interpersonal environment (e.g., struggle with a significant other, loss of a loved one). Once depressed, symptoms can lead to compromised interpersonal functioning, which can precipitate continued stressful events. The goal in therapy is to address both the stressful life events and improved social support.",
-   "links": [
-    "http://www.cebc4cw.org/program/interpersonal-psychotherapy-adolescent-skills-training/detailed",
-    "http://www.div12.org/psychological-treatments/treatments/interpersonal-psychotherapy-for-binge-eating-disorder/",
-    "http://www.div12.org/psychological-treatments/treatments/interpersonal-psychotherapy-for-bulimia-nervosa/",
-    "https://www.cebc4cw.org/program/interpersonal-psychotherapy/",
-    "https://www.div12.org/psychological-treatments/treatments/interpersonal-therapy-for-depression/"
-   ],
-   "evidence": [
-    {
-     "source": "buffalo",
-     "rating": "Listed",
-     "ratingLabel": "Included on UB School of Social Work EBP list",
-     "problem": "Depression — Adolescent Skills Training (IPT-AST",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
-     "tier": "listed"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Binge Eating Disorder",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/interpersonal-psychotherapy-for-binge-eating-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427223240/https://div12.org/psychological-treatments/treatments/interpersonal-psychotherapy-for-binge-eating-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Bulimia Nervosa",
-     "problemTags": [
-      "eating-disorders"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/interpersonal-psychotherapy-for-bulimia-nervosa/",
-     "archivedUrl": "http://web.archive.org/web/20250427233320/https://div12.org/psychological-treatments/treatments/interpersonal-psychotherapy-for-bulimia-nervosa/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/interpersonal-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250427094515/https://div12.org/psychological-treatments/treatments/interpersonal-therapy-for-depression/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "cebc",
-     "rating": "1",
-     "ratingLabel": "Well-Supported by Research Evidence",
-     "problem": "Depression Treatment (Adult)",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "https://www.cebc4cw.org/program/interpersonal-psychotherapy/",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "buffalo",
-    "cebc",
-    "div12"
-   ]
-  },
-  {
-   "id": "prolonged-exposure-therapy",
-   "name": "Prolonged Exposure Therapy (PE)",
-   "aka": [
-    "PE-A",
-    "Prolonged Exposure Therapy",
-    "Prolonged Exposure Therapy for Adolescents",
-    "Prolonged Exposure Therapy for Adolescents (PE-A)"
-   ],
-   "modality": "Exposure Therapy",
-   "problems": [
-    "anxiety",
-    "stress-coping",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": ": repeated exposure to trauma-related thoughts, feelings, and situations can help reduce the power they have to cause distress",
-   "links": [
-    "http://www.cebc4cw.org/program/prolonged-exposure-therapy-for-adolescents/",
-    "https://www.cebc4cw.org/program/prolonged-exposure-therapy-for-adolescents/",
-    "https://www.div12.org/psychological-treatments/treatments/prolonged-exposure-therapy-for-post-traumatic-stress-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "buffalo",
-     "rating": "Listed",
-     "ratingLabel": "Included on UB School of Social Work EBP list",
-     "problem": "Anxiety",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
-     "tier": "listed"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Post-Traumatic Stress Disorder",
-     "problemTags": [
-      "trauma-ptsd",
-      "stress-coping"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/prolonged-exposure-therapy-for-post-traumatic-stress-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250621145613/https://div12.org/psychological-treatments/treatments/prolonged-exposure-therapy-for-post-traumatic-stress-disorder/",
-     "archivedAt": "20250621",
-     "tier": "well-supported"
-    },
-    {
-     "source": "cebc",
-     "rating": "1",
-     "ratingLabel": "Well-Supported by Research Evidence",
-     "problem": "Trauma Treatment - Client-Level Interventions (Child & Adolescent)",
-     "problemTags": [
-      "trauma-ptsd"
-     ],
-     "url": "https://www.cebc4cw.org/program/prolonged-exposure-therapy-for-adolescents/",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "buffalo",
-    "cebc",
-    "div12"
-   ]
-  },
-  {
-   "id": "seeking-safety",
-   "name": "Seeking Safety (Adolescent version)",
-   "aka": [
-    "Adolescent version",
-    "Adult version",
-    "Seeking Safety",
-    "Seeking Safety (Adult version)"
-   ],
-   "modality": "Group Interventions",
-   "problems": [
-    "substance-use",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/seeking-safety-for-ptsd-with-substance-use-disorder/",
-    "https://www.cebc4cw.org/program/seeking-safety-for-adolescents/",
-    "https://www.cebc4cw.org/program/seeking-safety-for-adults/",
-    "https://www.treatment-innovations.org/seeking-safety.html"
-   ],
-   "evidence": [
-    {
-     "source": "buffalo",
-     "rating": "Listed",
-     "ratingLabel": "Included on UB School of Social Work EBP list",
-     "problem": "Substance Use Disorders",
-     "problemTags": [
-      "substance-use"
-     ],
-     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
-     "tier": "listed"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "PTSD with Substance Use Disorder",
-     "problemTags": [
-      "trauma-ptsd",
-      "substance-use"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/seeking-safety-for-ptsd-with-substance-use-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427033759/https://div12.org/psychological-treatments/treatments/seeking-safety-for-ptsd-with-substance-use-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    },
-    {
-     "source": "cebc",
-     "rating": "3",
-     "ratingLabel": "Promising Research Evidence",
-     "problem": "Substance Abuse Treatment (Adolescent)",
-     "problemTags": [
-      "trauma-ptsd",
-      "substance-use"
-     ],
-     "url": "https://www.cebc4cw.org/program/seeking-safety-for-adolescents/",
-     "tier": "promising"
-    },
-    {
-     "source": "cebc",
-     "rating": "2",
-     "ratingLabel": "Supported by Research Evidence",
-     "problem": "Substance Abuse Treatment (Adult)",
-     "problemTags": [
-      "trauma-ptsd",
-      "substance-use"
-     ],
-     "url": "https://www.cebc4cw.org/program/seeking-safety-for-adults/",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "buffalo",
-    "cebc",
-    "div12"
    ]
   },
   {
@@ -1008,111 +355,145 @@
    ]
   },
   {
-   "id": "cognitive-behavioral-analysis-system-of-psychotherapy",
-   "name": "Cognitive Behavioral Analysis System of Psychotherapy",
-   "aka": [],
-   "modality": "CBT",
-   "problems": [
-    "depression"
+   "id": "cognitive-behavioral-therapy",
+   "name": "Cognitive Behavioral Therapy (CBT)",
+   "aka": [
+    "CBT",
+    "CBT (individual)",
+    "CBT (individual, Non face-to-face CBT)",
+    "CBT (individual, group, family)",
+    "Cognitive-behavioral Therapy (CBT)"
    ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-analysis-system-of-psychotherapy-for-depression/",
-    "https://www.cebc4cw.org/program/cognitive-behavioral-analysis-system-of-psychotherapy/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-behavioral-analysis-system-of-psychotherapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250331003450/https://div12.org/psychological-treatments/treatments/cognitive-behavioral-analysis-system-of-psychotherapy-for-depression/",
-     "archivedAt": "20250331",
-     "tier": "well-supported"
-    },
-    {
-     "source": "cebc",
-     "rating": "1",
-     "ratingLabel": "Well-Supported by Research Evidence",
-     "problem": "Depression Treatment (Adult)",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "https://www.cebc4cw.org/program/cognitive-behavioral-analysis-system-of-psychotherapy/",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "cebc",
-    "div12"
-   ]
-  },
-  {
-   "id": "cognitive-therapy",
-   "name": "Cognitive Therapy",
-   "aka": [],
-   "modality": "CBT",
+   "modality": "Cognitive Behavioral Therapy",
    "problems": [
     "anxiety",
-    "behavior-problems",
     "chronic-pain-health",
-    "depression",
-    "parenting-family"
+    "eating-disorders",
+    "ocd",
+    "parenting-family",
+    "substance-use",
+    "trauma-ptsd"
    ],
    "populations": [
-    "adults",
     "children-adolescents"
    ],
    "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": ": Aaron T. Beck’s cognitive theory of depression proposes that persons susceptible to depression develop inaccurate/unhelpful core beliefs about themselves, others, and the world as a result of their learning histories. These beliefs can be dormant for extended periods of time and are activated by life events that carry specific meaning for that person. Core beliefs that render someone susceptible to depression are broadly categorized into beliefs about being unlovable, worthless, helpless, and ",
+   "cautionFlag": true,
+   "summary": "",
    "links": [
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-therapy-for-depression/",
-    "https://www.cebc4cw.org/program/cognitive-therapy/"
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928448/"
    ],
    "evidence": [
     {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Depression",
+     "source": "buffalo",
+     "rating": "Listed",
+     "ratingLabel": "Included on UB School of Social Work EBP list",
+     "problem": "Eating Disorders",
      "problemTags": [
-      "depression"
+      "eating-disorders"
      ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250427033426/https://div12.org/psychological-treatments/treatments/cognitive-therapy-for-depression/",
-     "archivedAt": "20250427",
+     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
+     "tier": "listed"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 1",
+     "ratingLabel": "Works Well",
+     "problem": "Drug & Alcohol Abuse (Effective Therapies for Adolescents with Substance Use Disorder)",
+     "problemTags": [
+      "trauma-ptsd",
+      "substance-use",
+      "parenting-family"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/drug-and-alcohol-abuse/",
      "tier": "well-supported"
     },
     {
-     "source": "cebc",
-     "rating": "1",
-     "ratingLabel": "Well-Supported by Research Evidence",
-     "problem": "Depression Treatment (Adult)",
+     "source": "ect",
+     "rating": "Level 4",
+     "ratingLabel": "Experimental",
+     "problem": "Eating & Body Image Problems (Therapies and Terms Defined:)",
      "problemTags": [
-      "anxiety",
-      "depression",
-      "behavior-problems",
-      "chronic-pain-health",
-      "parenting-family"
+      "eating-disorders"
      ],
-     "url": "https://www.cebc4cw.org/program/cognitive-therapy/",
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
+     "tier": "experimental"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 3",
+     "ratingLabel": "Might Work",
+     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
+     "problemTags": [
+      "eating-disorders"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
+     "tier": "promising"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 4",
+     "ratingLabel": "Experimental",
+     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
+     "problemTags": [
+      "eating-disorders"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
+     "tier": "experimental"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 1",
+     "ratingLabel": "Works Well",
+     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
+     "problemTags": [
+      "anxiety"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
      "tier": "well-supported"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 5",
+     "ratingLabel": "Tested and Does Not Work",
+     "problem": "Obesity & Overweight (Effective Therapies for Overweight and Obesity)",
+     "problemTags": [
+      "chronic-pain-health"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/",
+     "tier": "not-supported"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 3",
+     "ratingLabel": "Might Work",
+     "problem": "Obesity & Overweight (Effective Therapies for Overweight and Obesity)",
+     "problemTags": [
+      "chronic-pain-health"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obesity-and-overweight/",
+     "tier": "promising"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 2",
+     "ratingLabel": "Works",
+     "problem": "Obsessions, Compulsions, & OCD (Effective Therapies for Obsessive-Compulsive Disorder)",
+     "problemTags": [
+      "ocd"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/",
+     "tier": "supported"
     }
    ],
    "sources": [
-    "cebc",
-    "div12"
+    "buffalo",
+    "ect"
    ]
   },
   {
@@ -1216,201 +597,6 @@
    ]
   },
   {
-   "id": "family-focused-therapy",
-   "name": "Family Focused Therapy (FFT)",
-   "aka": [
-    "FFT",
-    "Family-focused therapy"
-   ],
-   "modality": "Family Therapy",
-   "problems": [
-    "bipolar",
-    "parenting-family",
-    "psychosis-schizophrenia"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/family-focused-therapy-fft-for-bipolar-disorder/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
-   ],
-   "evidence": [
-    {
-     "source": "ect",
-     "rating": "Level 1",
-     "ratingLabel": "Works Well",
-     "problem": "Schizophrenia",
-     "problemTags": [
-      "psychosis-schizophrenia",
-      "parenting-family"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Bipolar Disorder",
-     "problemTags": [
-      "bipolar",
-      "parenting-family"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/family-focused-therapy-fft-for-bipolar-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427220109/https://div12.org/psychological-treatments/treatments/family-focused-therapy-fft-for-bipolar-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12",
-    "ect"
-   ]
-  },
-  {
-   "id": "family-psychoeducation",
-   "name": "Family psychoeducation",
-   "aka": [
-    "Family Psychoeducation"
-   ],
-   "modality": "Family Therapy",
-   "problems": [
-    "anxiety",
-    "parenting-family",
-    "psychosis-schizophrenia"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/family-psychoeducation-for-schizophrenia/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
-   ],
-   "evidence": [
-    {
-     "source": "ect",
-     "rating": "Level 2",
-     "ratingLabel": "Works",
-     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
-     "problemTags": [
-      "anxiety",
-      "parenting-family"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Schizophrenia",
-     "problemTags": [
-      "psychosis-schizophrenia",
-      "parenting-family"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/family-psychoeducation-for-schizophrenia/",
-     "archivedUrl": "http://web.archive.org/web/20250427224610/https://div12.org/psychological-treatments/treatments/family-psychoeducation-for-schizophrenia/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12",
-    "ect"
-   ]
-  },
-  {
-   "id": "family-based-treatment",
-   "name": "Family-based treatment",
-   "aka": [
-    "Family-Based Treatment"
-   ],
-   "modality": "Family Therapy",
-   "problems": [
-    "eating-disorders",
-    "parenting-family"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "Active and structured family involvement in the treatment of adolescents suffering from anorexia nervosa significantly increases the likelihood of positive treatment outcomes.",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/family-based-treatment-for-bulimia-nervosa/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-    "https://www.div12.org/psychological-treatments/treatments/family-based-treatment-for-anorexia-nervosa/"
-   ],
-   "evidence": [
-    {
-     "source": "ect",
-     "rating": "Level 3",
-     "ratingLabel": "Might Work",
-     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
-     "problemTags": [
-      "eating-disorders",
-      "parenting-family"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-     "tier": "promising"
-    },
-    {
-     "source": "ect",
-     "rating": "Level 3",
-     "ratingLabel": "Might Work",
-     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
-     "problemTags": [
-      "eating-disorders",
-      "parenting-family"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
-     "tier": "promising"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Bulimia Nervosa",
-     "problemTags": [
-      "eating-disorders",
-      "parenting-family"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/family-based-treatment-for-bulimia-nervosa/",
-     "archivedUrl": "http://web.archive.org/web/20250427230554/https://div12.org/psychological-treatments/treatments/family-based-treatment-for-bulimia-nervosa/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Anorexia Nervosa",
-     "problemTags": [
-      "eating-disorders",
-      "parenting-family"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/family-based-treatment-for-anorexia-nervosa/",
-     "archivedUrl": "http://web.archive.org/web/20250427221954/https://div12.org/psychological-treatments/treatments/family-based-treatment-for-anorexia-nervosa/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12",
-    "ect"
-   ]
-  },
-  {
    "id": "functional-family-therapy",
    "name": "Functional Family Therapy (FFT)",
    "aka": [
@@ -1459,6 +645,55 @@
       "parenting-family"
      ],
      "url": "https://www.cebc4cw.org/program/functional-family-therapy/",
+     "tier": "well-supported"
+    }
+   ],
+   "sources": [
+    "buffalo",
+    "cebc"
+   ]
+  },
+  {
+   "id": "interpersonal-psychotherapy",
+   "name": "Interpersonal Psychotherapy (IPT)",
+   "aka": [
+    "Interpersonal Psychotherapy"
+   ],
+   "modality": "Group Interventions",
+   "problems": [
+    "depression"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "well-supported",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "http://www.cebc4cw.org/program/interpersonal-psychotherapy-adolescent-skills-training/detailed",
+    "https://www.cebc4cw.org/program/interpersonal-psychotherapy/"
+   ],
+   "evidence": [
+    {
+     "source": "buffalo",
+     "rating": "Listed",
+     "ratingLabel": "Included on UB School of Social Work EBP list",
+     "problem": "Depression — Adolescent Skills Training (IPT-AST",
+     "problemTags": [
+      "depression"
+     ],
+     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
+     "tier": "listed"
+    },
+    {
+     "source": "cebc",
+     "rating": "1",
+     "ratingLabel": "Well-Supported by Research Evidence",
+     "problem": "Depression Treatment (Adult)",
+     "problemTags": [
+      "depression"
+     ],
+     "url": "https://www.cebc4cw.org/program/interpersonal-psychotherapy/",
      "tier": "well-supported"
     }
    ],
@@ -1757,171 +992,55 @@
    ]
   },
   {
-   "id": "psychoeducation",
-   "name": "Psychoeducation",
-   "aka": [],
-   "modality": "Psychoeducation",
-   "problems": [
-    "anxiety",
-    "bipolar"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": true,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/psychoeducation-for-bipolar-disorder/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
-   ],
-   "evidence": [
-    {
-     "source": "ect",
-     "rating": "Level 5",
-     "ratingLabel": "Tested and Does Not Work",
-     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
-     "tier": "not-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Bipolar Disorder",
-     "problemTags": [
-      "bipolar"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/psychoeducation-for-bipolar-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427233850/https://div12.org/psychological-treatments/treatments/psychoeducation-for-bipolar-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12",
-    "ect"
-   ]
-  },
-  {
-   "id": "relaxation-training",
-   "name": "Relaxation Training",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "anxiety",
-    "sleep"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": true,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/relaxation-training-for-insomnia/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
-   ],
-   "evidence": [
-    {
-     "source": "ect",
-     "rating": "Level 5",
-     "ratingLabel": "Tested and Does Not Work",
-     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
-     "tier": "not-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Insomnia",
-     "problemTags": [
-      "sleep"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/relaxation-training-for-insomnia/",
-     "archivedUrl": "http://web.archive.org/web/20250427231223/https://div12.org/psychological-treatments/treatments/relaxation-training-for-insomnia/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12",
-    "ect"
-   ]
-  },
-  {
-   "id": "social-skills-training",
-   "name": "Social Skills Training (SST)",
+   "id": "prolonged-exposure-therapy",
+   "name": "Prolonged Exposure Therapy (PE)",
    "aka": [
-    "SST",
-    "Social skills training"
+    "PE-A",
+    "Prolonged Exposure Therapy for Adolescents",
+    "Prolonged Exposure Therapy for Adolescents (PE-A)"
    ],
-   "modality": "Other / Multi-component",
+   "modality": "Exposure Therapy",
    "problems": [
-    "adhd",
-    "psychosis-schizophrenia"
+    "anxiety",
+    "trauma-ptsd"
    ],
    "populations": [
-    "adults",
     "children-adolescents"
    ],
    "tier": "well-supported",
-   "cautionFlag": true,
+   "cautionFlag": false,
    "summary": "",
    "links": [
-    "http://www.div12.org/psychological-treatments/treatments/social-skills-training-sst-for-schizophrenia/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+    "http://www.cebc4cw.org/program/prolonged-exposure-therapy-for-adolescents/",
+    "https://www.cebc4cw.org/program/prolonged-exposure-therapy-for-adolescents/"
    ],
    "evidence": [
     {
-     "source": "ect",
-     "rating": "Level 5",
-     "ratingLabel": "Tested and Does Not Work",
-     "problem": "Inattention & Hyperactivity (ADHD) (Effective Therapies for ADHD)",
+     "source": "buffalo",
+     "rating": "Listed",
+     "ratingLabel": "Included on UB School of Social Work EBP list",
+     "problem": "Anxiety",
      "problemTags": [
-      "adhd"
+      "anxiety"
      ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/",
-     "tier": "not-supported"
+     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
+     "tier": "listed"
     },
     {
-     "source": "ect",
-     "rating": "Level 4",
-     "ratingLabel": "Experimental",
-     "problem": "Schizophrenia",
+     "source": "cebc",
+     "rating": "1",
+     "ratingLabel": "Well-Supported by Research Evidence",
+     "problem": "Trauma Treatment - Client-Level Interventions (Child & Adolescent)",
      "problemTags": [
-      "psychosis-schizophrenia"
+      "trauma-ptsd"
      ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/",
-     "tier": "experimental"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Schizophrenia",
-     "problemTags": [
-      "psychosis-schizophrenia"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/social-skills-training-sst-for-schizophrenia/",
-     "archivedUrl": "http://web.archive.org/web/20250427231711/https://div12.org/psychological-treatments/treatments/social-skills-training-sst-for-schizophrenia/",
-     "archivedAt": "20250427",
+     "url": "https://www.cebc4cw.org/program/prolonged-exposure-therapy-for-adolescents/",
      "tier": "well-supported"
     }
    ],
    "sources": [
-    "div12",
-    "ect"
+    "buffalo",
+    "cebc"
    ]
   },
   {
@@ -1975,44 +1094,6 @@
    "sources": [
     "buffalo",
     "cebc"
-   ]
-  },
-  {
-   "id": "assertive-community-treatment",
-   "name": "Assertive Community Treatment (ACT)",
-   "aka": [
-    "ACT"
-   ],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "psychosis-schizophrenia"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/assertive-community-treatment-act-for-schizophrenia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Schizophrenia",
-     "problemTags": [
-      "psychosis-schizophrenia"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/assertive-community-treatment-act-for-schizophrenia/",
-     "archivedUrl": "http://web.archive.org/web/20250427230718/https://div12.org/psychological-treatments/treatments/assertive-community-treatment-act-for-schizophrenia/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -2171,80 +1252,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "behavioral-and-cognitive-behavioral-therapy",
-   "name": "Behavioral and Cognitive Behavioral Therapy",
-   "aka": [],
-   "modality": "CBT",
-   "problems": [
-    "chronic-pain-health"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/behavioral-and-cognitive-behavioral-therapy-for-chronic-low-back-pain/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Chronic Low Back Pain",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/behavioral-and-cognitive-behavioral-therapy-for-chronic-low-back-pain/",
-     "archivedUrl": "http://web.archive.org/web/20250427224814/https://div12.org/psychological-treatments/treatments/behavioral-and-cognitive-behavioral-therapy-for-chronic-low-back-pain/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "behavioral-couples-therapy",
-   "name": "Behavioral Couples Therapy",
-   "aka": [],
-   "modality": "Behavior Therapy",
-   "problems": [
-    "relationship-couples",
-    "substance-use"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/behavioral-couples-therapy-for-alcohol-use-disorders/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Alcohol Use Disorders",
-     "problemTags": [
-      "substance-use",
-      "relationship-couples"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/behavioral-couples-therapy-for-alcohol-use-disorders/",
-     "archivedUrl": "http://web.archive.org/web/20250428000538/https://div12.org/psychological-treatments/treatments/behavioral-couples-therapy-for-alcohol-use-disorders/",
-     "archivedAt": "20250428",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -2485,42 +1492,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "behavioral-treatment",
-   "name": "Behavioral Treatment",
-   "aka": [],
-   "modality": "Behavior Therapy",
-   "problems": [
-    "chronic-pain-health"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "Eating and activity behaviors are reinforced by cues and consequences that can be internal (e.g., thoughts and feelings) or external (e.g., environment, behaviors). Selectively modifying these internal and external factors can facilitate positive changes in diet and exercise. In addition, providing measurable goals and methods to monitor progress towards such goals can promote behavior change.",
-   "links": [
-    "https://div12.org/psychological-treatments/treatments/behavioral-treatment-for-obesity/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Obesity",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "https://div12.org/psychological-treatments/treatments/behavioral-treatment-for-obesity/",
-     "archivedUrl": "http://web.archive.org/web/20250427220521/https://div12.org/psychological-treatments/treatments/behavioral-treatment-for-obesity/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -2906,39 +1877,37 @@
    ]
   },
   {
-   "id": "cognitive-and-behavioral-therapies",
-   "name": "Cognitive and Behavioral Therapies",
+   "id": "cognitive-behavioral-analysis-system-of-psychotherapy",
+   "name": "Cognitive Behavioral Analysis System of Psychotherapy",
    "aka": [],
-   "modality": "Behavior Therapy",
+   "modality": "CBT",
    "problems": [
-    "anxiety"
+    "depression"
    ],
    "populations": [
-    "adults"
+    "children-adolescents"
    ],
    "tier": "well-supported",
    "cautionFlag": false,
    "summary": "",
    "links": [
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-and-behavioral-therapies-for-generalized-anxiety-disorder/"
+    "https://www.cebc4cw.org/program/cognitive-behavioral-analysis-system-of-psychotherapy/"
    ],
    "evidence": [
     {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Generalized Anxiety Disorder",
+     "source": "cebc",
+     "rating": "1",
+     "ratingLabel": "Well-Supported by Research Evidence",
+     "problem": "Depression Treatment (Adult)",
      "problemTags": [
-      "anxiety"
+      "depression"
      ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-and-behavioral-therapies-for-generalized-anxiety-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250613104203/https://div12.org/psychological-treatments/treatments/cognitive-and-behavioral-therapies-for-generalized-anxiety-disorder/",
-     "archivedAt": "20250613",
+     "url": "https://www.cebc4cw.org/program/cognitive-behavioral-analysis-system-of-psychotherapy/",
      "tier": "well-supported"
     }
    ],
    "sources": [
-    "div12"
+    "cebc"
    ]
   },
   {
@@ -3016,39 +1985,45 @@
    ]
   },
   {
-   "id": "cognitive-remediation",
-   "name": "Cognitive Remediation",
+   "id": "cognitive-therapy",
+   "name": "Cognitive Therapy",
    "aka": [],
-   "modality": "Other / Multi-component",
+   "modality": "CBT",
    "problems": [
-    "psychosis-schizophrenia"
+    "anxiety",
+    "behavior-problems",
+    "chronic-pain-health",
+    "depression",
+    "parenting-family"
    ],
    "populations": [
-    "adults"
+    "children-adolescents"
    ],
    "tier": "well-supported",
    "cautionFlag": false,
    "summary": "",
    "links": [
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-remediation-for-schizophrenia/"
+    "https://www.cebc4cw.org/program/cognitive-therapy/"
    ],
    "evidence": [
     {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Schizophrenia",
+     "source": "cebc",
+     "rating": "1",
+     "ratingLabel": "Well-Supported by Research Evidence",
+     "problem": "Depression Treatment (Adult)",
      "problemTags": [
-      "psychosis-schizophrenia"
+      "anxiety",
+      "depression",
+      "behavior-problems",
+      "chronic-pain-health",
+      "parenting-family"
      ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-remediation-for-schizophrenia/",
-     "archivedUrl": "http://web.archive.org/web/20250427230911/https://div12.org/psychological-treatments/treatments/cognitive-remediation-for-schizophrenia/",
-     "archivedAt": "20250427",
+     "url": "https://www.cebc4cw.org/program/cognitive-therapy/",
      "tier": "well-supported"
     }
    ],
    "sources": [
-    "div12"
+    "cebc"
    ]
   },
   {
@@ -3308,80 +2283,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "exposure-and-response-prevention",
-   "name": "Exposure and Response Prevention (ERP)",
-   "aka": [
-    "Exposure and Response Prevention"
-   ],
-   "modality": "Exposure Therapy",
-   "problems": [
-    "ocd"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": ": As individuals confront their fears and discontinue their escape response, they will eventually reduce their anxiety.",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/exposure-and-response-prevention-for-obsessive-compulsive-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Obsessive-Compulsive Disorder",
-     "problemTags": [
-      "ocd"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/exposure-and-response-prevention-for-obsessive-compulsive-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427221822/https://div12.org/psychological-treatments/treatments/exposure-and-response-prevention-for-obsessive-compulsive-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "exposure-therapies",
-   "name": "Exposure Therapies",
-   "aka": [],
-   "modality": "Exposure Therapy",
-   "problems": [
-    "anxiety"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/exposure-therapies-for-specific-phobias/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Specific Phobias",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/exposure-therapies-for-specific-phobias/",
-     "archivedUrl": "http://web.archive.org/web/20250621135608/https://div12.org/psychological-treatments/treatments/exposure-therapies-for-specific-phobias/",
-     "archivedAt": "20250621",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -3673,6 +2574,42 @@
       "parenting-family"
      ],
      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/obsessions-compulsions-and-ocd/",
+     "tier": "well-supported"
+    }
+   ],
+   "sources": [
+    "ect"
+   ]
+  },
+  {
+   "id": "family-focused-therapy",
+   "name": "Family-focused therapy",
+   "aka": [],
+   "modality": "Family Therapy",
+   "problems": [
+    "parenting-family",
+    "psychosis-schizophrenia"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "well-supported",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+   ],
+   "evidence": [
+    {
+     "source": "ect",
+     "rating": "Level 1",
+     "ratingLabel": "Works Well",
+     "problem": "Schizophrenia",
+     "problemTags": [
+      "psychosis-schizophrenia",
+      "parenting-family"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/",
      "tier": "well-supported"
     }
    ],
@@ -4221,94 +3158,6 @@
    ]
   },
   {
-   "id": "motivational-interviewing-motivational-enhancement-therapy-and-met-plus-cbt",
-   "name": "Motivational Interviewing, Motivational Enhancement Therapy (MET), and MET plus CBT",
-   "aka": [
-    "MET"
-   ],
-   "modality": "CBT",
-   "problems": [
-    "substance-use"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://div12.org/psychological-treatments/treatments/metmetcbt-for-mixed-substance-use/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Mixed Substance Use/Dependence",
-     "problemTags": [
-      "substance-use"
-     ],
-     "url": "https://div12.org/psychological-treatments/treatments/metmetcbt-for-mixed-substance-use/",
-     "archivedUrl": "http://web.archive.org/web/20250620130648/https://div12.org/psychological-treatments/treatments/metmetcbt-for-mixed-substance-use/",
-     "archivedAt": "20250620",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "multi-component-cognitive-behavioral-therapy",
-   "name": "Multi-Component Cognitive Behavioral Therapy",
-   "aka": [],
-   "modality": "CBT",
-   "problems": [
-    "chronic-pain-health"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/multi-component-cognitive-behavioral-therapy-for-fibromyalgia/",
-    "http://www.div12.org/psychological-treatments/treatments/multi-component-cognitive-behavioral-therapy-for-rheumatologic-pain/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Fibromyalgia",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/multi-component-cognitive-behavioral-therapy-for-fibromyalgia/",
-     "archivedUrl": "http://web.archive.org/web/20250520234310/https://div12.org/psychological-treatments/treatments/multi-component-cognitive-behavioral-therapy-for-fibromyalgia/",
-     "archivedAt": "20250520",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Rheumatologic Pain",
-     "problemTags": [
-      "chronic-pain-health"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/multi-component-cognitive-behavioral-therapy-for-rheumatologic-pain/",
-     "archivedUrl": "http://web.archive.org/web/20250428000101/https://div12.org/psychological-treatments/treatments/multi-component-cognitive-behavioral-therapy-for-rheumatologic-pain/",
-     "archivedAt": "20250428",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "multimodal-therapy",
    "name": "Multimodal therapy (includes components of many other therapies for psychotic disorders)",
    "aka": [],
@@ -4581,42 +3430,6 @@
    ]
   },
   {
-   "id": "paradoxical-intention",
-   "name": "Paradoxical Intention",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "sleep"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/paradoxical-intention-for-insomnia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Insomnia",
-     "problemTags": [
-      "sleep"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/paradoxical-intention-for-insomnia/",
-     "archivedUrl": "http://web.archive.org/web/20250427221544/https://div12.org/psychological-treatments/treatments/paradoxical-intention-for-insomnia/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "parentcorps",
    "name": "ParentCorps",
    "aka": [],
@@ -4754,120 +3567,6 @@
    ],
    "sources": [
     "cebc"
-   ]
-  },
-  {
-   "id": "prize-based-contingency-management",
-   "name": "Prize-Based Contingency Management",
-   "aka": [],
-   "modality": "Behavior Therapy",
-   "problems": [
-    "substance-use",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-alcohol-use-disorders/",
-    "http://www.div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-cocaine-dependence/",
-    "http://www.div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-mixed-substance-abusedependence/",
-    "https://div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-mixed-substance-usedependence/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Alcohol Use Disorders",
-     "problemTags": [
-      "substance-use"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-alcohol-use-disorders/",
-     "archivedUrl": "http://web.archive.org/web/20250427221050/https://div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-alcohol-use-disorders/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Cocaine Dependence",
-     "problemTags": [],
-     "url": "http://www.div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-cocaine-dependence/",
-     "archivedUrl": "http://web.archive.org/web/20250427222623/https://div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-cocaine-dependence/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Mixed Substance Abuse/Dependence",
-     "problemTags": [
-      "trauma-ptsd",
-      "substance-use"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-mixed-substance-abusedependence/",
-     "archivedUrl": "http://web.archive.org/web/20230208011602/https://div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-mixed-substance-abusedependence/",
-     "archivedAt": "20230208",
-     "tier": "well-supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Mixed Substance Use/Dependence",
-     "problemTags": [
-      "substance-use"
-     ],
-     "url": "https://div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-mixed-substance-usedependence/",
-     "archivedUrl": "http://web.archive.org/web/20250321163635/https://div12.org/psychological-treatments/treatments/prize-based-contingency-management-for-mixed-substance-usedependence/",
-     "archivedAt": "20250321",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "problem-solving-therapy",
-   "name": "Problem-Solving Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "depression"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "the manner in which people historically and currently cope with extant stressful events via effective social problem solving may affect the degree to which they will experience psychological distress",
-   "links": [
-    "https://www.div12.org/psychological-treatments/treatments/problem-solving-therapy-for-depression/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "https://www.div12.org/psychological-treatments/treatments/problem-solving-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250522152151/https://div12.org/psychological-treatments/treatments/problem-solving-therapy-for-depression/",
-     "archivedAt": "20250522",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -5015,152 +3714,6 @@
    ]
   },
   {
-   "id": "self-management-self-control-therapy",
-   "name": "Self-Management/Self-Control Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "depression"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/self-managementself-control-therapy-for-depression/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/self-managementself-control-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250616025900/https://div12.org/psychological-treatments/treatments/self-managementself-control-therapy-for-depression/",
-     "archivedAt": "20250616",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "sleep-restriction-therapy",
-   "name": "Sleep Restriction Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "sleep"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/sleep-restriction-therapy-for-insomnia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Insomnia",
-     "problemTags": [
-      "sleep"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/sleep-restriction-therapy-for-insomnia/",
-     "archivedUrl": "http://web.archive.org/web/20250427234757/https://div12.org/psychological-treatments/treatments/sleep-restriction-therapy-for-insomnia/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "social-learning-token-economy-programs",
-   "name": "Social Learning/Token Economy Programs",
-   "aka": [],
-   "modality": "Behavior Therapy",
-   "problems": [
-    "psychosis-schizophrenia",
-    "school"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/social-learningtoken-economy-programs-for-schizophrenia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Schizophrenia",
-     "problemTags": [
-      "psychosis-schizophrenia",
-      "school"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/social-learningtoken-economy-programs-for-schizophrenia/",
-     "archivedUrl": "http://web.archive.org/web/20250427235946/https://div12.org/psychological-treatments/treatments/social-learningtoken-economy-programs-for-schizophrenia/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "stimulus-control-therapy",
-   "name": "Stimulus Control Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "sleep"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/stimulus-control-therapy-for-insomnia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Insomnia",
-     "problemTags": [
-      "sleep"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/stimulus-control-therapy-for-insomnia/",
-     "archivedUrl": "http://web.archive.org/web/20250818160142/https://div12.org/psychological-treatments/treatments/stimulus-control-therapy-for-insomnia/",
-     "archivedAt": "20250818",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "strengthening-families-program-for-parents-and-youth-10-14",
    "name": "Strengthening Families Program: For Parents and Youth 10-14",
    "aka": [],
@@ -5262,42 +3815,6 @@
    ],
    "sources": [
     "cebc"
-   ]
-  },
-  {
-   "id": "systematic-care",
-   "name": "Systematic Care",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "bipolar"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "well-supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/systematic-care-for-bipolar-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Strong Research Support",
-     "ratingLabel": "Strong Research Support",
-     "problem": "Bipolar Disorder",
-     "problemTags": [
-      "bipolar"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/systematic-care-for-bipolar-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427230755/https://div12.org/psychological-treatments/treatments/systematic-care-for-bipolar-disorder/",
-     "archivedAt": "20250427",
-     "tier": "well-supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -5437,6 +3954,90 @@
     }
    ],
    "sources": [
+    "ect"
+   ]
+  },
+  {
+   "id": "dialectical-behavior-therapy",
+   "name": "Dialectical Behavior Therapy (DBT)",
+   "aka": [
+    "DBT (individual and family)",
+    "Dialectical Behavior Therapy",
+    "Dialectical behavior therapy"
+   ],
+   "modality": "Cognitive Behavioral Therapy",
+   "problems": [
+    "bipolar",
+    "depression",
+    "eating-disorders",
+    "parenting-family",
+    "personality-disorders",
+    "suicide-self-harm"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "supported",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://behavioraltech.org/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/",
+    "https://www.cebc4cw.org/program/dialectical-behavior-therapy-dbt/"
+   ],
+   "evidence": [
+    {
+     "source": "buffalo",
+     "rating": "Listed",
+     "ratingLabel": "Included on UB School of Social Work EBP list",
+     "problem": "Borderline Personality Disorder",
+     "problemTags": [
+      "personality-disorders"
+     ],
+     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
+     "tier": "listed"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 4",
+     "ratingLabel": "Experimental",
+     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
+     "problemTags": [
+      "eating-disorders",
+      "parenting-family"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
+     "tier": "experimental"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 2",
+     "ratingLabel": "Works",
+     "problem": "Severe Mood Swings & Bipolar Spectrum Disorders (Effective Therapies for Bipolar Disorder and Severe Mood Swings)",
+     "problemTags": [
+      "depression",
+      "bipolar"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/",
+     "tier": "supported"
+    },
+    {
+     "source": "cebc",
+     "rating": "3",
+     "ratingLabel": "Promising Research Evidence",
+     "problem": "Alternatives to Long-Term Residential Care Programs",
+     "problemTags": [
+      "personality-disorders",
+      "suicide-self-harm"
+     ],
+     "url": "https://www.cebc4cw.org/program/dialectical-behavior-therapy-dbt/",
+     "tier": "promising"
+    }
+   ],
+   "sources": [
+    "buffalo",
+    "cebc",
     "ect"
    ]
   },
@@ -5717,61 +4318,6 @@
    ]
   },
   {
-   "id": "interpersonal-and-social-rhythm-therapy",
-   "name": "Interpersonal and Social Rhythm Therapy (IPSRT)",
-   "aka": [
-    "IPSRT",
-    "Interpersonal and social rhythm therapy"
-   ],
-   "modality": "Interpersonal Therapy",
-   "problems": [
-    "bipolar",
-    "depression"
-   ],
-   "populations": [
-    "adults",
-    "children-adolescents"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/interpersonal-and-social-rhythm-therapy-ipsrt-for-bipolar-disorder/",
-    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/"
-   ],
-   "evidence": [
-    {
-     "source": "ect",
-     "rating": "Level 4",
-     "ratingLabel": "Experimental",
-     "problem": "Severe Mood Swings & Bipolar Spectrum Disorders (Effective Therapies for Bipolar Disorder and Severe Mood Swings)",
-     "problemTags": [
-      "depression",
-      "bipolar"
-     ],
-     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/",
-     "tier": "experimental"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Bipolar Disorder",
-     "problemTags": [
-      "bipolar"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/interpersonal-and-social-rhythm-therapy-ipsrt-for-bipolar-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250918102923/https://div12.org/psychological-treatments/treatments/interpersonal-and-social-rhythm-therapy-ipsrt-for-bipolar-disorder/",
-     "archivedAt": "20250918",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12",
-    "ect"
-   ]
-  },
-  {
    "id": "multi-family-psychoeducational-psychotherapy",
    "name": "Multi-Family Psychoeducational Psychotherapy (MF-PEP)",
    "aka": [
@@ -5932,57 +4478,70 @@
    ]
   },
   {
-   "id": "rational-emotive-behavioral-therapy",
-   "name": "Rational Emotive Behavioral Therapy (REBT)",
+   "id": "seeking-safety",
+   "name": "Seeking Safety (Adolescent version)",
    "aka": [
-    "REBT",
-    "Rational Emotive Behavioral Therapy"
+    "Adolescent version",
+    "Adult version",
+    "Seeking Safety",
+    "Seeking Safety (Adult version)"
    ],
-   "modality": "Cognitive Behavioral Therapy",
+   "modality": "Group Interventions",
    "problems": [
-    "behavior-problems",
-    "depression"
+    "substance-use",
+    "trauma-ptsd"
    ],
    "populations": [
-    "adults",
     "children-adolescents"
    ],
    "tier": "supported",
    "cautionFlag": false,
    "summary": "",
    "links": [
-    "http://albertellis.org/rebt-cbt-therapy/",
-    "http://www.div12.org/psychological-treatments/treatments/rational-emotive-behavioral-therapy-for-depression/"
+    "https://www.cebc4cw.org/program/seeking-safety-for-adolescents/",
+    "https://www.cebc4cw.org/program/seeking-safety-for-adults/",
+    "https://www.treatment-innovations.org/seeking-safety.html"
    ],
    "evidence": [
     {
      "source": "buffalo",
      "rating": "Listed",
      "ratingLabel": "Included on UB School of Social Work EBP list",
-     "problem": "Conduct Disorder and other Behavioral challenges",
+     "problem": "Substance Use Disorders",
      "problemTags": [
-      "behavior-problems"
+      "substance-use"
      ],
      "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
      "tier": "listed"
     },
     {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Depression",
+     "source": "cebc",
+     "rating": "3",
+     "ratingLabel": "Promising Research Evidence",
+     "problem": "Substance Abuse Treatment (Adolescent)",
      "problemTags": [
-      "depression"
+      "trauma-ptsd",
+      "substance-use"
      ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/rational-emotive-behavioral-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250321175321/https://div12.org/psychological-treatments/treatments/rational-emotive-behavioral-therapy-for-depression/",
-     "archivedAt": "20250321",
+     "url": "https://www.cebc4cw.org/program/seeking-safety-for-adolescents/",
+     "tier": "promising"
+    },
+    {
+     "source": "cebc",
+     "rating": "2",
+     "ratingLabel": "Supported by Research Evidence",
+     "problem": "Substance Abuse Treatment (Adult)",
+     "problemTags": [
+      "trauma-ptsd",
+      "substance-use"
+     ],
+     "url": "https://www.cebc4cw.org/program/seeking-safety-for-adults/",
      "tier": "supported"
     }
    ],
    "sources": [
     "buffalo",
-    "div12"
+    "cebc"
    ]
   },
   {
@@ -6262,42 +4821,6 @@
    ]
   },
   {
-   "id": "applied-relaxation",
-   "name": "Applied Relaxation",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "anxiety"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/applied-relaxation-for-panic-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Panic Disorder",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/applied-relaxation-for-panic-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427232552/https://div12.org/psychological-treatments/treatments/applied-relaxation-for-panic-disorder/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "attention-control",
    "name": "Attention control",
    "aka": [],
@@ -6446,42 +4969,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "biofeedback-based-treatments",
-   "name": "Biofeedback-Based Treatments",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "sleep"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/biofeedback-based-treatments-for-insomnia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Insomnia",
-     "problemTags": [
-      "sleep"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/biofeedback-based-treatments-for-insomnia/",
-     "archivedUrl": "http://web.archive.org/web/20250427231143/https://div12.org/psychological-treatments/treatments/biofeedback-based-treatments-for-insomnia/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -6748,44 +5235,6 @@
    ],
    "sources": [
     "cebc"
-   ]
-  },
-  {
-   "id": "cognitive-adaptation-training",
-   "name": "Cognitive Adaptation Training (CAT)",
-   "aka": [
-    "CAT"
-   ],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "psychosis-schizophrenia"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/cognitive-adaptation-training-cat-for-schizophrenia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Schizophrenia",
-     "problemTags": [
-      "psychosis-schizophrenia"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/cognitive-adaptation-training-cat-for-schizophrenia/",
-     "archivedUrl": "http://web.archive.org/web/20250427230129/https://div12.org/psychological-treatments/treatments/cognitive-adaptation-training-cat-for-schizophrenia/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -7111,42 +5560,6 @@
    ]
   },
   {
-   "id": "emotion-focused-therapy",
-   "name": "Emotion Focused Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "depression"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "Emotion-focused therapy (EFT) for depression builds on Greenberg’s (2004) more general process-experiential approach that was designed to help patients identify, utilize, and process emotions. Depression is thought to involve inhibited processing of emotions and experiences, and the therapist provides a safe and soothing environment to reduce the anxiety and avoidance associated with difficult emotions.",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/emotion-focused-therapy-for-depression/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/emotion-focused-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250613105034/https://div12.org/psychological-treatments/treatments/emotion-focused-therapy-for-depression/",
-     "archivedAt": "20250613",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "emotion-coping-kids-managing-anxiety-and-depression",
    "name": "EMOTION: 'Coping Kids' Managing Anxiety and Depression",
    "aka": [],
@@ -7367,6 +5780,42 @@
    ]
   },
   {
+   "id": "family-psychoeducation",
+   "name": "Family psychoeducation",
+   "aka": [],
+   "modality": "Family Therapy",
+   "problems": [
+    "anxiety",
+    "parenting-family"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "supported",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+   ],
+   "evidence": [
+    {
+     "source": "ect",
+     "rating": "Level 2",
+     "ratingLabel": "Works",
+     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
+     "problemTags": [
+      "anxiety",
+      "parenting-family"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
+     "tier": "supported"
+    }
+   ],
+   "sources": [
+    "ect"
+   ]
+  },
+  {
    "id": "family-therapy-systemic",
    "name": "Family therapy-systemic",
    "aka": [],
@@ -7476,44 +5925,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "friends-care",
-   "name": "Friends Care",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "substance-use",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/friends-care-for-mixed-substance-abusedependence/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Mixed Substance Abuse/Dependence",
-     "problemTags": [
-      "trauma-ptsd",
-      "substance-use"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/friends-care-for-mixed-substance-abusedependence/",
-     "archivedUrl": "http://web.archive.org/web/20230208010845/https://div12.org/psychological-treatments/treatments/friends-care-for-mixed-substance-abusedependence/",
-     "archivedAt": "20230208",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -7695,58 +6106,6 @@
    ]
   },
   {
-   "id": "guided-self-change",
-   "name": "Guided Self-Change",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "substance-use",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/guided-self-change-for-mixed-substance-abusedependence/",
-    "https://div12.org/psychological-treatments/treatments/guided-self-change-for-mixed-substance-usedependence/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Mixed Substance Abuse/Dependence",
-     "problemTags": [
-      "trauma-ptsd",
-      "substance-use"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/guided-self-change-for-mixed-substance-abusedependence/",
-     "archivedUrl": "http://web.archive.org/web/20230207235747/https://div12.org/psychological-treatments/treatments/guided-self-change-for-mixed-substance-abusedependence/",
-     "archivedAt": "20230207",
-     "tier": "supported"
-    },
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Mixed Substance Use/Dependence",
-     "problemTags": [
-      "substance-use"
-     ],
-     "url": "https://div12.org/psychological-treatments/treatments/guided-self-change-for-mixed-substance-usedependence/",
-     "archivedUrl": "http://web.archive.org/web/20250522152150/https://div12.org/psychological-treatments/treatments/guided-self-change-for-mixed-substance-usedependence/",
-     "archivedAt": "20250522",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "helping-women-recover-beyond-trauma",
    "name": "Helping Women Recover & Beyond Trauma",
    "aka": [],
@@ -7888,46 +6247,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "illness-management-and-recovery",
-   "name": "Illness Management and Recovery (IMR)",
-   "aka": [
-    "IMR"
-   ],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "chronic-pain-health",
-    "psychosis-schizophrenia"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/illness-management-and-recovery-imr-for-schizophrenia/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Schizophrenia",
-     "problemTags": [
-      "psychosis-schizophrenia",
-      "chronic-pain-health"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/illness-management-and-recovery-imr-for-schizophrenia/",
-     "archivedUrl": "http://web.archive.org/web/20250427233350/https://div12.org/psychological-treatments/treatments/illness-management-and-recovery-imr-for-schizophrenia/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -8343,42 +6662,6 @@
    ]
   },
   {
-   "id": "mentalization-based-treatment",
-   "name": "Mentalization-Based Treatment",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "personality-disorders"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/mentalization-based-treatment-for-borderline-personality-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Borderline Personality Disorder",
-     "problemTags": [
-      "personality-disorders"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/mentalization-based-treatment-for-borderline-personality-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250421172841/https://div12.org/psychological-treatments/treatments/mentalization-based-treatment-for-borderline-personality-disorder/",
-     "archivedAt": "20250421",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "met-with-cbt-plus-contingency-management",
    "name": "MET with CBT plus contingency management",
    "aka": [],
@@ -8412,42 +6695,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "moderate-drinking",
-   "name": "Moderate Drinking",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "substance-use"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/moderate-drinking-for-alcohol-use-disorders/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Alcohol Use Disorders",
-     "problemTags": [
-      "substance-use"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/moderate-drinking-for-alcohol-use-disorders/",
-     "archivedUrl": "http://web.archive.org/web/20250427222835/https://div12.org/psychological-treatments/treatments/moderate-drinking-for-alcohol-use-disorders/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -8895,42 +7142,6 @@
    ]
   },
   {
-   "id": "psychoanalytic-treatment",
-   "name": "Psychoanalytic Treatment",
-   "aka": [],
-   "modality": "Psychodynamic Therapy",
-   "problems": [
-    "anxiety"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/psychoanalytic-treatment-for-panic-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Panic Disorder",
-     "problemTags": [
-      "anxiety"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/psychoanalytic-treatment-for-panic-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427232400/https://div12.org/psychological-treatments/treatments/psychoanalytic-treatment-for-panic-disorder/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "psychodynamic-therapy-individual-family",
    "name": "Psychodynamic Therapy – Individual + Family (DSH)",
    "aka": [
@@ -9000,42 +7211,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "reminiscence-life-review-therapy",
-   "name": "Reminiscence/Life Review Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "depression"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/reminiscencelife-review-therapy-for-depression/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/reminiscencelife-review-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250621145701/https://div12.org/psychological-treatments/treatments/reminiscencelife-review-therapy-for-depression/",
-     "archivedAt": "20250621",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -9229,114 +7404,6 @@
    ]
   },
   {
-   "id": "self-system-therapy",
-   "name": "Self-System Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "depression"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/self-system-therapy-for-depression/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/self-system-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250621134339/https://div12.org/psychological-treatments/treatments/self-system-therapy-for-depression/",
-     "archivedAt": "20250621",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "short-term-psychodynamic-therapy",
-   "name": "Short-Term Psychodynamic Therapy",
-   "aka": [],
-   "modality": "Psychodynamic Therapy",
-   "problems": [
-    "depression"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/short-term-psychodynamic-therapy-for-depression/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Depression",
-     "problemTags": [
-      "depression"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/short-term-psychodynamic-therapy-for-depression/",
-     "archivedUrl": "http://web.archive.org/web/20250522160917/https://div12.org/psychological-treatments/treatments/short-term-psychodynamic-therapy-for-depression/",
-     "archivedAt": "20250522",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
-   "id": "smoking-cessation-with-weight-gain-prevention",
-   "name": "Smoking Cessation with Weight Gain Prevention",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "substance-use"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/smoking-cessation-with-weight-gain-prevention/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "",
-     "problemTags": [
-      "substance-use"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/smoking-cessation-with-weight-gain-prevention/",
-     "archivedUrl": "http://web.archive.org/web/20250427231414/https://div12.org/psychological-treatments/treatments/smoking-cessation-with-weight-gain-prevention/",
-     "archivedAt": "20250427",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "sport-prevention-plus-wellness-high-school-version",
    "name": "SPORT Prevention Plus Wellness-High School Version",
    "aka": [],
@@ -9408,44 +7475,6 @@
    ],
    "sources": [
     "ect"
-   ]
-  },
-  {
-   "id": "stress-inoculation-training",
-   "name": "Stress Inoculation Training",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "stress-coping",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "supported",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/stress-inoculation-training-for-post-traumatic-stress-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Modest Research Support",
-     "ratingLabel": "Modest Research Support",
-     "problem": "Post-Traumatic Stress Disorder",
-     "problemTags": [
-      "trauma-ptsd",
-      "stress-coping"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/stress-inoculation-training-for-post-traumatic-stress-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250323114619/https://div12.org/psychological-treatments/treatments/stress-inoculation-training-for-post-traumatic-stress-disorder/",
-     "archivedAt": "20250323",
-     "tier": "supported"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -13155,6 +11184,42 @@
    ]
   },
   {
+   "id": "circle-of-security-parenting",
+   "name": "Circle of Security Parenting",
+   "aka": [],
+   "modality": "Parent Training",
+   "problems": [
+    "behavior-problems",
+    "parenting-family"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "promising",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://www.cebc4cw.org/program/circle-of-security-parenting/"
+   ],
+   "evidence": [
+    {
+     "source": "cebc",
+     "rating": "3",
+     "ratingLabel": "Promising Research Evidence",
+     "problem": "Parent Training Programs that Address Behavior Problems in Children and Adolescents",
+     "problemTags": [
+      "behavior-problems",
+      "parenting-family"
+     ],
+     "url": "https://www.cebc4cw.org/program/circle-of-security-parenting/",
+     "tier": "promising"
+    }
+   ],
+   "sources": [
+    "cebc"
+   ]
+  },
+  {
    "id": "cmca-communities-mobilizing-for-change-on-alcohol",
    "name": "CMCA: Communities Mobilizing for Change on Alcohol",
    "aka": [],
@@ -13623,42 +11688,6 @@
    ]
   },
   {
-   "id": "copeing-with-toddler-behaviour",
-   "name": "COPEing with Toddler Behaviour",
-   "aka": [],
-   "modality": "Behavior Therapy",
-   "problems": [
-    "behavior-problems",
-    "parenting-family"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "promising",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/copeing-with-toddler-behavior/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "3",
-     "ratingLabel": "Promising Research Evidence",
-     "problem": "Parent Training Programs that Address Behavior Problems in Children and Adolescents",
-     "problemTags": [
-      "behavior-problems",
-      "parenting-family"
-     ],
-     "url": "https://www.cebc4cw.org/program/copeing-with-toddler-behavior/",
-     "tier": "promising"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
    "id": "creating-change",
    "name": "Creating Change",
    "aka": [],
@@ -14055,8 +12084,8 @@
    ]
   },
   {
-   "id": "dyadic-developmental-psychotherapy",
-   "name": "Dyadic Developmental Psychotherapy",
+   "id": "dyadic-developmental-psychotherapy-attachment-focused-treatment-institute-versio",
+   "name": "Dyadic Developmental Psychotherapy – Attachment-focused Treatment Institute Version",
    "aka": [],
    "modality": "Other / Multi-component",
    "problems": [
@@ -14069,7 +12098,7 @@
    "cautionFlag": false,
    "summary": "",
    "links": [
-    "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy/"
+    "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy-attachment-focused-treatment-institute-version/"
    ],
    "evidence": [
     {
@@ -14080,7 +12109,7 @@
      "problemTags": [
       "parenting-family"
      ],
-     "url": "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy/",
+     "url": "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy-attachment-focused-treatment-institute-version/",
      "tier": "promising"
     }
    ],
@@ -14843,6 +12872,54 @@
       "parenting-family"
      ],
      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/sadness-hopelessness-and-depression/",
+     "tier": "promising"
+    }
+   ],
+   "sources": [
+    "ect"
+   ]
+  },
+  {
+   "id": "family-based-treatment",
+   "name": "Family-based treatment",
+   "aka": [],
+   "modality": "Family Therapy",
+   "problems": [
+    "eating-disorders",
+    "parenting-family"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "promising",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/"
+   ],
+   "evidence": [
+    {
+     "source": "ect",
+     "rating": "Level 3",
+     "ratingLabel": "Might Work",
+     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
+     "problemTags": [
+      "eating-disorders",
+      "parenting-family"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
+     "tier": "promising"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 3",
+     "ratingLabel": "Might Work",
+     "problem": "Eating & Body Image Problems (Therapies and Terms Defined)",
+     "problemTags": [
+      "eating-disorders",
+      "parenting-family"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/eating-body-image-problems/",
      "tier": "promising"
     }
    ],
@@ -16952,6 +15029,40 @@
    ]
   },
   {
+   "id": "my-first-place",
+   "name": "My First Place",
+   "aka": [],
+   "modality": "Other / Multi-component",
+   "problems": [
+    "child-welfare"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "promising",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://www.cebc4cw.org/program/my-first-place/"
+   ],
+   "evidence": [
+    {
+     "source": "cebc",
+     "rating": "3",
+     "ratingLabel": "Promising Research Evidence",
+     "problem": "Youth Transitioning Into Adulthood Programs",
+     "problemTags": [
+      "child-welfare"
+     ],
+     "url": "https://www.cebc4cw.org/program/my-first-place/",
+     "tier": "promising"
+    }
+   ],
+   "sources": [
+    "cebc"
+   ]
+  },
+  {
    "id": "national-family-development-credential-program",
    "name": "National Family Development Credential® Program",
    "aka": [],
@@ -18220,6 +16331,42 @@
       "child-welfare"
      ],
      "url": "https://www.cebc4cw.org/program/resource-parent-curriculum/",
+     "tier": "promising"
+    }
+   ],
+   "sources": [
+    "cebc"
+   ]
+  },
+  {
+   "id": "safe-babies-a-program-of-zero-to-three",
+   "name": "Safe Babies, a program of ZERO TO THREE™",
+   "aka": [],
+   "modality": "Other / Multi-component",
+   "problems": [
+    "child-welfare",
+    "trauma-ptsd"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "promising",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://www.cebc4cw.org/program/safe-babies-court-teams-project/"
+   ],
+   "evidence": [
+    {
+     "source": "cebc",
+     "rating": "3",
+     "ratingLabel": "Promising Research Evidence",
+     "problem": "Reunification Programs",
+     "problemTags": [
+      "trauma-ptsd",
+      "child-welfare"
+     ],
+     "url": "https://www.cebc4cw.org/program/safe-babies-court-teams-project/",
      "tier": "promising"
     }
    ],
@@ -19642,42 +17789,6 @@
    ]
   },
   {
-   "id": "the-safe-babies-court-team",
-   "name": "The Safe Babies Court Team™",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "child-welfare",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "promising",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/safe-babies-court-teams-project/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "3",
-     "ratingLabel": "Promising Research Evidence",
-     "problem": "Reunification Programs",
-     "problemTags": [
-      "trauma-ptsd",
-      "child-welfare"
-     ],
-     "url": "https://www.cebc4cw.org/program/safe-babies-court-teams-project/",
-     "tier": "promising"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
    "id": "the-safe-child-program",
    "name": "The Safe Child Program",
    "aka": [],
@@ -19766,7 +17877,7 @@
    "cautionFlag": false,
    "summary": "",
    "links": [
-    "https://www.cebc4cw.org/program/transition-to-independence-tip-model-2/"
+    "https://www.cebc4cw.org/program/transition-to-independence-tip-model/"
    ],
    "evidence": [
     {
@@ -19775,7 +17886,7 @@
      "ratingLabel": "Promising Research Evidence",
      "problem": "Mentoring Programs (Child & Adolescent)",
      "problemTags": [],
-     "url": "https://www.cebc4cw.org/program/transition-to-independence-tip-model-2/",
+     "url": "https://www.cebc4cw.org/program/transition-to-independence-tip-model/",
      "tier": "promising"
     }
    ],
@@ -19886,44 +17997,6 @@
       "chronic-pain-health"
      ],
      "url": "https://www.cebc4cw.org/program/trauma-recovery-and-empowerment-model/",
-     "tier": "promising"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
-   "id": "trauma-systems-therapy-foster-care",
-   "name": "Trauma Systems Therapy–Foster Care",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "child-welfare",
-    "parenting-family",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "promising",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/trauma-systems-therapy-foster-care/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "3",
-     "ratingLabel": "Promising Research Evidence",
-     "problem": "Resource Parent Programs",
-     "problemTags": [
-      "trauma-ptsd",
-      "parenting-family",
-      "child-welfare"
-     ],
-     "url": "https://www.cebc4cw.org/program/trauma-systems-therapy-foster-care/",
      "tier": "promising"
     }
    ],
@@ -21358,6 +19431,42 @@
    ]
   },
   {
+   "id": "interpersonal-and-social-rhythm-therapy",
+   "name": "Interpersonal and social rhythm therapy",
+   "aka": [],
+   "modality": "Interpersonal Therapy",
+   "problems": [
+    "bipolar",
+    "depression"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "experimental",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/"
+   ],
+   "evidence": [
+    {
+     "source": "ect",
+     "rating": "Level 4",
+     "ratingLabel": "Experimental",
+     "problem": "Severe Mood Swings & Bipolar Spectrum Disorders (Effective Therapies for Bipolar Disorder and Severe Mood Swings)",
+     "problemTags": [
+      "depression",
+      "bipolar"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/severe-mood-swings-and-bipolar-spectrum-disorders/",
+     "tier": "experimental"
+    }
+   ],
+   "sources": [
+    "ect"
+   ]
+  },
+  {
    "id": "ipt",
    "name": "IPT (individual)",
    "aka": [],
@@ -21849,6 +19958,53 @@
       "anxiety"
      ],
      "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
+     "tier": "experimental"
+    }
+   ],
+   "sources": [
+    "ect"
+   ]
+  },
+  {
+   "id": "social-skills-training",
+   "name": "Social skills training",
+   "aka": [],
+   "modality": "Other / Multi-component",
+   "problems": [
+    "adhd",
+    "psychosis-schizophrenia"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "experimental",
+   "cautionFlag": true,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/",
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/"
+   ],
+   "evidence": [
+    {
+     "source": "ect",
+     "rating": "Level 5",
+     "ratingLabel": "Tested and Does Not Work",
+     "problem": "Inattention & Hyperactivity (ADHD) (Effective Therapies for ADHD)",
+     "problemTags": [
+      "adhd"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/inattention-and-hyperactivity-adhd/",
+     "tier": "not-supported"
+    },
+    {
+     "source": "ect",
+     "rating": "Level 4",
+     "ratingLabel": "Experimental",
+     "problem": "Schizophrenia",
+     "problemTags": [
+      "psychosis-schizophrenia"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/schizophrenia/",
      "tier": "experimental"
     }
    ],
@@ -23365,42 +21521,6 @@
    ]
   },
   {
-   "id": "circle-of-security-parenting",
-   "name": "Circle of Security Parenting",
-   "aka": [],
-   "modality": "Parent Training",
-   "problems": [
-    "behavior-problems",
-    "parenting-family"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/circle-of-security-parenting/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "NR",
-     "ratingLabel": "Not able to be Rated",
-     "problem": "Parent Training Programs that Address Behavior Problems in Children and Adolescents",
-     "problemTags": [
-      "behavior-problems",
-      "parenting-family"
-     ],
-     "url": "https://www.cebc4cw.org/program/circle-of-security-parenting/",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
    "id": "circles-of-safety",
    "name": "Circles of Safety®",
    "aka": [],
@@ -24071,6 +22191,40 @@
    ]
   },
   {
+   "id": "dyadic-developmental-psychotherapy-ddpi-worldwide-version",
+   "name": "Dyadic Developmental Psychotherapy – DDPI Worldwide Version",
+   "aka": [],
+   "modality": "Other / Multi-component",
+   "problems": [
+    "parenting-family"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "listed",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy-ddpi-worldwide-version/"
+   ],
+   "evidence": [
+    {
+     "source": "cebc",
+     "rating": "NR",
+     "ratingLabel": "Not able to be Rated",
+     "problem": "Attachment Interventions (Child & Adolescent)",
+     "problemTags": [
+      "parenting-family"
+     ],
+     "url": "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy-ddpi-worldwide-version/",
+     "tier": "listed"
+    }
+   ],
+   "sources": [
+    "cebc"
+   ]
+  },
+  {
    "id": "early-risers-ldquo-skills-for-success-rdquo",
    "name": "Early Risers &ldquo;Skills for Success&rdquo",
    "aka": [],
@@ -24393,42 +22547,6 @@
    ],
    "sources": [
     "buffalo"
-   ]
-  },
-  {
-   "id": "families-first-of-michigan",
-   "name": "Families First of Michigan",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "parenting-family",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/families-first-of-michigan/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "NR",
-     "ratingLabel": "Not able to be Rated",
-     "problem": "Family Stabilization Programs",
-     "problemTags": [
-      "trauma-ptsd",
-      "parenting-family"
-     ],
-     "url": "https://www.cebc4cw.org/program/families-first-of-michigan/",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "cebc"
    ]
   },
   {
@@ -24898,42 +23016,6 @@
       "child-welfare"
      ],
      "url": "https://www.cebc4cw.org/program/foster-youth-services/",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
-   "id": "foster-youth-success-initiative",
-   "name": "Foster Youth Success Initiative",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "child-welfare",
-    "parenting-family"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/foster-youth-success-initiative-fysi/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "NR",
-     "ratingLabel": "Not able to be Rated",
-     "problem": "Educational Interventions for Children and Adolescents in Child Welfare",
-     "problemTags": [
-      "parenting-family",
-      "child-welfare"
-     ],
-     "url": "https://www.cebc4cw.org/program/foster-youth-success-initiative-fysi/",
      "tier": "listed"
     }
    ],
@@ -25633,44 +23715,6 @@
    ],
    "sources": [
     "cebc"
-   ]
-  },
-  {
-   "id": "healthy-weight-program",
-   "name": "Healthy-Weight Program",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "chronic-pain-health",
-    "eating-disorders"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/healthy-weight-program-for-bulimia-nervosa/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Listed",
-     "ratingLabel": "On classic Div 12 EST list",
-     "problem": "Bulimia Nervosa",
-     "problemTags": [
-      "eating-disorders",
-      "chronic-pain-health"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/healthy-weight-program-for-bulimia-nervosa/",
-     "archivedUrl": "http://web.archive.org/web/20250427231748/https://div12.org/psychological-treatments/treatments/healthy-weight-program-for-bulimia-nervosa/",
-     "archivedAt": "20250427",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -27128,40 +25172,6 @@
    ]
   },
   {
-   "id": "my-first-place",
-   "name": "My First Place",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "child-welfare"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/my-first-place/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "NR",
-     "ratingLabel": "Not able to be Rated",
-     "problem": "Youth Transitioning Into Adulthood Programs",
-     "problemTags": [
-      "child-welfare"
-     ],
-     "url": "https://www.cebc4cw.org/program/my-first-place/",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
    "id": "my-kids-and-me",
    "name": "My Kids and Me",
    "aka": [],
@@ -28158,44 +26168,6 @@
    ]
   },
   {
-   "id": "present-centered-therapy",
-   "name": "Present-Centered Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "stress-coping",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/present-centered-therapy-for-post-traumatic-stress-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Listed",
-     "ratingLabel": "On classic Div 12 EST list",
-     "problem": "Post-Traumatic Stress Disorder",
-     "problemTags": [
-      "trauma-ptsd",
-      "stress-coping"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/present-centered-therapy-for-post-traumatic-stress-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250427234941/https://div12.org/psychological-treatments/treatments/present-centered-therapy-for-post-traumatic-stress-disorder/",
-     "archivedAt": "20250427",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "pressley-ridge-treatment-foster-care-program",
    "name": "Pressley Ridge Treatment Foster Care Program",
    "aka": [],
@@ -28590,59 +26562,6 @@
    ]
   },
   {
-   "id": "psychological-debriefing",
-   "name": "Psychological Debriefing",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "stress-coping",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/psychological-debriefing-for-post-traumatic-stress-disorder/",
-    "https://div12.org/psychological-treatments/treatments/psychological-debriefing-for-post-traumatic--stress-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "No Research Support",
-     "ratingLabel": "No Research Support",
-     "problem": "Post-Traumatic Stress Disorder",
-     "problemTags": [
-      "trauma-ptsd",
-      "stress-coping"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/psychological-debriefing-for-post-traumatic-stress-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250827002719/https://div12.org/psychological-treatments/treatments/psychological-debriefing-for-post-traumatic-stress-disorder/",
-     "archivedAt": "20250827",
-     "tier": "listed"
-    },
-    {
-     "source": "div12",
-     "rating": "No Research Support",
-     "ratingLabel": "No Research Support",
-     "problem": "Post-Traumatic Stress Disorder",
-     "problemTags": [
-      "trauma-ptsd",
-      "stress-coping"
-     ],
-     "url": "https://div12.org/psychological-treatments/treatments/psychological-debriefing-for-post-traumatic--stress-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250429233613/https://div12.org/psychological-treatments/treatments/psychological-debriefing-for-post-traumatic--stress-disorder/",
-     "archivedAt": "20250429",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "psychological-first-aid",
    "name": "Psychological First Aid",
    "aka": [],
@@ -28750,6 +26669,42 @@
    ],
    "sources": [
     "cebc"
+   ]
+  },
+  {
+   "id": "rational-emotive-behavioral-therapy",
+   "name": "Rational Emotive Behavioral Therapy (REBT)",
+   "aka": [
+    "REBT"
+   ],
+   "modality": "Cognitive Behavioral Therapy",
+   "problems": [
+    "behavior-problems"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "listed",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "http://albertellis.org/rebt-cbt-therapy/"
+   ],
+   "evidence": [
+    {
+     "source": "buffalo",
+     "rating": "Listed",
+     "ratingLabel": "Included on UB School of Social Work EBP list",
+     "problem": "Conduct Disorder and other Behavioral challenges",
+     "problemTags": [
+      "behavior-problems"
+     ],
+     "url": "https://socialwork.buffalo.edu/continuing-education/training-registration/EBP-mental-health/evidence-based-practices/ebp-interventions.html",
+     "tier": "listed"
+    }
+   ],
+   "sources": [
+    "buffalo"
    ]
   },
   {
@@ -30993,6 +28948,46 @@
    ]
   },
   {
+   "id": "the-san-diego-family-justice-center-your-safe-place",
+   "name": "The San Diego Family Justice Center – Your Safe Place (YSP)",
+   "aka": [
+    "YSP"
+   ],
+   "modality": "Family Therapy",
+   "problems": [
+    "parenting-family",
+    "relationship-couples",
+    "trauma-ptsd"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "listed",
+   "cautionFlag": false,
+   "summary": "",
+   "links": [
+    "https://www.cebc4cw.org/program/the-san-diego-family-justice-center-your-safe-place/"
+   ],
+   "evidence": [
+    {
+     "source": "cebc",
+     "rating": "NR",
+     "ratingLabel": "Not able to be Rated",
+     "problem": "Commercial Sexual Exploitation of Children and Adolescents: Services for Victims",
+     "problemTags": [
+      "trauma-ptsd",
+      "parenting-family",
+      "relationship-couples"
+     ],
+     "url": "https://www.cebc4cw.org/program/the-san-diego-family-justice-center-your-safe-place/",
+     "tier": "listed"
+    }
+   ],
+   "sources": [
+    "cebc"
+   ]
+  },
+  {
    "id": "the-stop-domestic-violence-program",
    "name": "The STOP Domestic Violence Program",
    "aka": [],
@@ -31867,38 +29862,6 @@
    ]
   },
   {
-   "id": "wayback-machine",
-   "name": "Wayback Machine",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [],
-   "populations": [
-    "adults"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/feed/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Listed",
-     "ratingLabel": "On classic Div 12 EST list",
-     "problem": "",
-     "problemTags": [],
-     "url": "http://www.div12.org/psychological-treatments/treatments/feed/",
-     "archivedUrl": "http://web.archive.org/web/20240514034031/https://div12.org/psychological-treatments/treatments/feed/",
-     "archivedAt": "20240514",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "div12"
-   ]
-  },
-  {
    "id": "we-thinkers-curriculum-series",
    "name": "We Thinkers! Curriculum Series",
    "aka": [],
@@ -32177,46 +30140,6 @@
    ]
   },
   {
-   "id": "your-safe-place-the-san-diego-family-justice-center",
-   "name": "Your Safe Place (YSP) – The San Diego Family Justice Center",
-   "aka": [
-    "YSP"
-   ],
-   "modality": "Family Therapy",
-   "problems": [
-    "parenting-family",
-    "relationship-couples",
-    "trauma-ptsd"
-   ],
-   "populations": [
-    "children-adolescents"
-   ],
-   "tier": "listed",
-   "cautionFlag": false,
-   "summary": "",
-   "links": [
-    "https://www.cebc4cw.org/program/your-safe-place-the-san-diego-family-justice-center/"
-   ],
-   "evidence": [
-    {
-     "source": "cebc",
-     "rating": "NR",
-     "ratingLabel": "Not able to be Rated",
-     "problem": "Commercial Sexual Exploitation of Children and Adolescents: Services for Victims",
-     "problemTags": [
-      "trauma-ptsd",
-      "parenting-family",
-      "relationship-couples"
-     ],
-     "url": "https://www.cebc4cw.org/program/your-safe-place-the-san-diego-family-justice-center/",
-     "tier": "listed"
-    }
-   ],
-   "sources": [
-    "cebc"
-   ]
-  },
-  {
    "id": "yourok-helping-foster-youth-successfully-transition-to-adulthood",
    "name": "YouROK, Helping Foster Youth Successfully Transition to Adulthood",
    "aka": [],
@@ -32350,42 +30273,6 @@
    ],
    "sources": [
     "cebc"
-   ]
-  },
-  {
-   "id": "transference-focused-therapy",
-   "name": "Transference-Focused Therapy",
-   "aka": [],
-   "modality": "Other / Multi-component",
-   "problems": [
-    "personality-disorders"
-   ],
-   "populations": [
-    "adults"
-   ],
-   "tier": "caution",
-   "cautionFlag": true,
-   "summary": "",
-   "links": [
-    "http://www.div12.org/psychological-treatments/treatments/transference-focused-therapy-for-borderline-personality-disorder/"
-   ],
-   "evidence": [
-    {
-     "source": "div12",
-     "rating": "Controversial Research Support",
-     "ratingLabel": "Controversial Research Support",
-     "problem": "Borderline Personality Disorder",
-     "problemTags": [
-      "personality-disorders"
-     ],
-     "url": "http://www.div12.org/psychological-treatments/treatments/transference-focused-therapy-for-borderline-personality-disorder/",
-     "archivedUrl": "http://web.archive.org/web/20250325192819/https://div12.org/psychological-treatments/treatments/transference-focused-therapy-for-borderline-personality-disorder/",
-     "archivedAt": "20250325",
-     "tier": "caution"
-    }
-   ],
-   "sources": [
-    "div12"
    ]
   },
   {
@@ -33011,8 +30898,76 @@
    ]
   },
   {
+   "id": "psychoeducation",
+   "name": "Psychoeducation",
+   "aka": [],
+   "modality": "Psychoeducation",
+   "problems": [
+    "anxiety"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "not-supported",
+   "cautionFlag": true,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+   ],
+   "evidence": [
+    {
+     "source": "ect",
+     "rating": "Level 5",
+     "ratingLabel": "Tested and Does Not Work",
+     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
+     "problemTags": [
+      "anxiety"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
+     "tier": "not-supported"
+    }
+   ],
+   "sources": [
+    "ect"
+   ]
+  },
+  {
    "id": "relationship-counseling",
    "name": "Relationship counseling",
+   "aka": [],
+   "modality": "Other / Multi-component",
+   "problems": [
+    "anxiety"
+   ],
+   "populations": [
+    "children-adolescents"
+   ],
+   "tier": "not-supported",
+   "cautionFlag": true,
+   "summary": "",
+   "links": [
+    "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/"
+   ],
+   "evidence": [
+    {
+     "source": "ect",
+     "rating": "Level 5",
+     "ratingLabel": "Tested and Does Not Work",
+     "problem": "Fear, Worry, & Anxiety Disorders (Effective Therapies for Anxiety)",
+     "problemTags": [
+      "anxiety"
+     ],
+     "url": "https://effectivechildtherapy.org/concerns-symptoms-disorders/disorders/fear-worry-and-anxiety/",
+     "tier": "not-supported"
+    }
+   ],
+   "sources": [
+    "ect"
+   ]
+  },
+  {
+   "id": "relaxation-training",
+   "name": "Relaxation Training",
    "aka": [],
    "modality": "Other / Multi-component",
    "problems": [

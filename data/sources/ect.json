@@ -2,7 +2,7 @@
   "source": "ect",
   "sourceName": "Effective Child Therapy (APA Division 53 / SCCAP)",
   "baseUrl": "https://effectivechildtherapy.org/concerns-symptoms-disorders/",
-  "scrapedAt": "2026-07-05",
+  "scrapedAt": "2026-10-01",
   "notes": "Evidence-based treatments for children and adolescents, rated per disorder/concern using SCCAP's five-level system.",
   "ratingScale": {
     "1": "Works Well (well-established)",

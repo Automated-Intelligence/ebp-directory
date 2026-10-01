@@ -2,7 +2,7 @@
   "source": "cebc",
   "sourceName": "California Evidence-Based Clearinghouse for Child Welfare (CEBC)",
   "baseUrl": "https://www.cebc4cw.org/",
-  "scrapedAt": "2026-07-06",
+  "scrapedAt": "2026-10-01",
   "notes": "Programs relevant to child welfare, rated on the CEBC Scientific Rating Scale (1 = Well-Supported ... 5 = Concerning Practice; NR = Not able to be Rated).",
   "ratingScale": {
     "1": "Well-Supported by Research Evidence",
@@ -12,7 +12,7 @@
     "5": "Concerning Practice",
     "NR": "Not able to be Rated"
   },
-  "recordCount": 603,
+  "recordCount": 600,
   "records": [
     {
       "name": "1-2-3 Magic: Effective Discipline for Children 2–12",
@@ -957,8 +957,8 @@
     {
       "name": "Circle of Security Parenting",
       "url": "https://www.cebc4cw.org/program/circle-of-security-parenting/",
-      "rating": "NR",
-      "ratingLabel": "Not able to be Rated",
+      "rating": "3",
+      "ratingLabel": "Promising Research Evidence",
       "topic": "Parent Training Programs that Address Behavior Problems in Children and Adolescents",
       "targetPopulation": "",
       "ages": "0 - 5",
@@ -1235,16 +1235,6 @@
       "summary": ""
     },
     {
-      "name": "COPEing with Toddler Behaviour",
-      "url": "https://www.cebc4cw.org/program/copeing-with-toddler-behavior/",
-      "rating": "3",
-      "ratingLabel": "Promising Research Evidence",
-      "topic": "Parent Training Programs that Address Behavior Problems in Children and Adolescents",
-      "targetPopulation": "Parents of 12- to 36-month-olds who are having challenges with toddler behaviour",
-      "ages": "1 - 3",
-      "summary": ""
-    },
-    {
       "name": "Coping Cat",
       "url": "https://www.cebc4cw.org/program/coping-cat/",
       "rating": "1",
@@ -1465,13 +1455,23 @@
       "summary": ""
     },
     {
-      "name": "Dyadic Developmental Psychotherapy",
-      "url": "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy/",
+      "name": "Dyadic Developmental Psychotherapy – Attachment-focused Treatment Institute Version",
+      "url": "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy-attachment-focused-treatment-institute-version/",
       "rating": "3",
       "ratingLabel": "Promising Research Evidence",
       "topic": "Attachment Interventions (Child & Adolescent)",
       "targetPopulation": "",
-      "ages": "5 - 17",
+      "ages": "2 - 17",
+      "summary": ""
+    },
+    {
+      "name": "Dyadic Developmental Psychotherapy – DDPI Worldwide Version",
+      "url": "https://www.cebc4cw.org/program/dyadic-developmental-psychotherapy-ddpi-worldwide-version/",
+      "rating": "NR",
+      "ratingLabel": "Not able to be Rated",
+      "topic": "Attachment Interventions (Child & Adolescent)",
+      "targetPopulation": "",
+      "ages": "2-18",
       "summary": ""
     },
     {
@@ -1765,16 +1765,6 @@
       "summary": ""
     },
     {
-      "name": "Families First of Michigan",
-      "url": "https://www.cebc4cw.org/program/families-first-of-michigan/",
-      "rating": "NR",
-      "ratingLabel": "Not able to be Rated",
-      "topic": "Family Stabilization Programs",
-      "targetPopulation": "Children who are at high risk of removal from their families due to abuse or neglect",
-      "ages": "0 - 17",
-      "summary": ""
-    },
-    {
       "name": "Families First",
       "url": "https://www.cebc4cw.org/program/families-first/",
       "rating": "3",
@@ -2062,16 +2052,6 @@
       "topic": "Behavioral Management Programs for Adolescents in Child Welfare",
       "targetPopulation": "Foster youth, K-12 grades",
       "ages": "5 - 18",
-      "summary": ""
-    },
-    {
-      "name": "Foster Youth Success Initiative",
-      "url": "https://www.cebc4cw.org/program/foster-youth-success-initiative-fysi/",
-      "rating": "NR",
-      "ratingLabel": "Not able to be Rated",
-      "topic": "Educational Interventions for Children and Adolescents in Child Welfare",
-      "targetPopulation": "Current or former foster youth interested in, or already attending, a community college",
-      "ages": "17 - 21",
       "summary": ""
     },
     {
@@ -3287,8 +3267,8 @@
     {
       "name": "My First Place",
       "url": "https://www.cebc4cw.org/program/my-first-place/",
-      "rating": "NR",
-      "ratingLabel": "Not able to be Rated",
+      "rating": "3",
+      "ratingLabel": "Promising Research Evidence",
       "topic": "Youth Transitioning Into Adulthood Programs",
       "targetPopulation": "Youth/young adults between the ages of 18 and 25 who are in or emancipating from child welfare systems throughout the United States",
       "ages": "18 - 25",
@@ -4415,7 +4395,7 @@
       "summary": ""
     },
     {
-      "name": "The Safe Babies Court Team™",
+      "name": "Safe Babies, a program of ZERO TO THREE™",
       "url": "https://www.cebc4cw.org/program/safe-babies-court-teams-project/",
       "rating": "3",
       "ratingLabel": "Promising Research Evidence",
@@ -5335,6 +5315,16 @@
       "summary": ""
     },
     {
+      "name": "The San Diego Family Justice Center – Your Safe Place (YSP)",
+      "url": "https://www.cebc4cw.org/program/the-san-diego-family-justice-center-your-safe-place/",
+      "rating": "NR",
+      "ratingLabel": "Not able to be Rated",
+      "topic": "Commercial Sexual Exploitation of Children and Adolescents: Services for Victims",
+      "targetPopulation": "Anyone who has experienced domestic violence, family violence, elder abuse, sexual assault, or sex trafficking and their affected children ages 5 years old or older",
+      "ages": "5 - 17",
+      "summary": ""
+    },
+    {
       "name": "The Seven Challenges®",
       "url": "https://www.cebc4cw.org/program/the-seven-challenges/",
       "rating": "3",
@@ -5496,7 +5486,7 @@
     },
     {
       "name": "Transition to Independence Process (TIP) Model",
-      "url": "https://www.cebc4cw.org/program/transition-to-independence-tip-model-2/",
+      "url": "https://www.cebc4cw.org/program/transition-to-independence-tip-model/",
       "rating": "3",
       "ratingLabel": "Promising Research Evidence",
       "topic": "Mentoring Programs (Child & Adolescent)",
@@ -5612,16 +5602,6 @@
       "topic": "Trauma Treatment - Client-Level Interventions (Child & Adolescent)",
       "targetPopulation": "Children and adolescents who have experienced trauma and their parents/caregivers",
       "ages": "5 - 18",
-      "summary": ""
-    },
-    {
-      "name": "Trauma Systems Therapy–Foster Care",
-      "url": "https://www.cebc4cw.org/program/trauma-systems-therapy-foster-care/",
-      "rating": "3",
-      "ratingLabel": "Promising Research Evidence",
-      "topic": "Resource Parent Programs",
-      "targetPopulation": "Resource and birth parents of youth aged birth-21and child welfare casework staff who work with those youth",
-      "ages": "0 - 21",
       "summary": ""
     },
     {
@@ -5992,16 +5972,6 @@
       "topic": "Pregnant and Parenting Teen Services",
       "targetPopulation": "Adolescents and/or transition-age youth/young adults in the child welfare system who are pregnant or are parenting young children Target Population Adolescents and/or transition-age youth/young adults in the child welfare system who are pregnant or are parenting young children",
       "ages": "",
-      "summary": ""
-    },
-    {
-      "name": "Your Safe Place (YSP) – The San Diego Family Justice Center",
-      "url": "https://www.cebc4cw.org/program/your-safe-place-the-san-diego-family-justice-center/",
-      "rating": "NR",
-      "ratingLabel": "Not able to be Rated",
-      "topic": "Commercial Sexual Exploitation of Children and Adolescents: Services for Victims",
-      "targetPopulation": "Anyone who has experienced domestic violence, family violence, elder abuse, sexual assault, or sex trafficking and their affected children ages 5 years old or older",
-      "ages": "5 - 17",
       "summary": ""
     },
     {
